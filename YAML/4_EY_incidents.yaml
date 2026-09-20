@@ -1,0 +1,102 @@
+type: bundle
+objects:
+  attack-pattern:
+    - ref_id: ap_1
+      name: 'Trusted Relationship'
+      created: "2026-08-06T10:02:04.338539Z"
+      modified: "2026-08-06T10:02:04.338539Z"     
+      external_references:
+        - source_name: 'mitre-att&ck'
+          external_id: 'T1199'
+          description: 'Trusted Relationship'
+          url: 'https://attack.mitre.org/techniques/T1199/'
+      kill_chain_phases: 
+        - kill_chain_name: 'mitre-att&ck'
+          phase_name: 'initial-access'
+  incident:
+    - ref_id: inc_1
+      name: 'breach 2026'
+      created: "2026-08-06T10:02:04.339539Z"
+      modified: "2026-08-27T10:02:04.339539Z"       
+      description: "Occurred between 2026-03-28 and 2026-04-12, and detected on 2026-04-23"
+      x_first_evidence: "2026-03-28"
+      x_last_evidence: "2026-04-12"
+      x_detected: "2026-04-23"
+    - ref_id: inc_2
+      name: 'Azure Exposure 2025'
+      created: "2026-08-06T10:02:04.339539Z"
+      modified: "2026-08-27T10:02:04.339539Z"       
+      description: "Detected on 2025-10"
+      x_detected: "2025-10"
+    - ref_id: inc_3
+      created: "2026-08-06T10:02:04.340539Z"
+      modified: "2026-08-27T10:02:04.340539Z"     
+      name: 'MOVEit 2023'
+      description: "Occurred between 2023-05-30 and 2023-05-31"
+      x_first_evidence: "2023-05-30"
+      x_last_evidence: "2023-05-31"
+  identity:
+    - ref_id: id_1
+      id: "identity--56031c2c-df26-4e81-b93a-af77c5c5854c"
+      name: 'Ernst & Young LLP'
+      created: "2026-08-06T10:02:04.340539Z"
+      modified: "2026-08-06T10:02:04.340539Z"       
+      contact_information: "https://www.ey.com/en_us"
+      identity_class: 'organization'
+      sectors: 
+        - 'financial-services'
+        - 'commercial'
+    - ref_id: id_2
+      type: identity
+      spec_version: '2.1'
+      id: identity--24673cb3-c9fb-45cf-95f8-6f7419f1812b
+      created: '2026-08-02T09:23:00.174927Z'
+      modified: '2026-08-02T09:23:00.174927Z'
+      name: Cyber Security News
+      roles:
+        - news-media
+        - threat-intel-aggregator
+      identity_class: organization
+      sectors:
+        - communications
+        - technology
+      contact_information: 'https://cybersecuritynews.com'
+  report:
+    - ref_id: rep_1
+      spec_version: '2.1'
+      name: "EY Data Breach – Hackers Gain Access to IT Support System and Download Documents"
+      created: "2026-08-26T09:00:56.904Z"
+      modified: "2026-08-26T09:00:56.904Z"
+      created_by_ref: id_2
+      published: "2026-07-17T09:00:56.904Z"
+      external_references: 
+        - source_name: "cyber-security-news"
+          url: "https://cybersecuritynews.com/ey-data-breach/"
+      object_refs: [
+        id_1, inc_1, inc_2, inc_3, ap_1
+      ]
+  relationship:
+    - ref_id: rel_1
+      relationship_type: uses
+      created: "2026-08-06T10:02:04.341038Z"
+      modified: "2026-08-06T10:02:04.341038Z"        
+      source_ref: inc_1
+      target_ref: ap_1
+    - ref_id: rel_2
+      relationship_type: suffered
+      created: "2026-08-06T10:02:04.341038Z"
+      modified: "2026-08-06T10:02:04.341038Z"
+      source_ref: id_1
+      target_ref: inc_1
+    - ref_id: rel_3
+      relationship_type: suffered
+      created: "2026-08-06T10:02:04.341038Z"
+      modified: "2026-08-06T10:02:04.341038Z"
+      source_ref: id_1
+      target_ref: inc_2
+    - ref_id: rel_4
+      relationship_type: suffered
+      created: "2026-08-06T10:02:04.341038Z"
+      modified: "2026-08-06T10:02:04.341038Z"
+      source_ref: id_1
+      target_ref: inc_3

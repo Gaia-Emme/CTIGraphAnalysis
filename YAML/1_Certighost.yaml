@@ -1,0 +1,146 @@
+type: bundle
+id: bundle--453e3e48-45c7-4df1-8057-76075ccfb5de
+objects:
+  identity:
+    - ref_id: id_1
+      spec_version: '2.1'
+      id: identity--d2a9ef61-c9d3-4a30-8f3d-b95e1d625d5e
+      created: '2026-08-01T16:49:23.513412Z'
+      modified: '2026-08-01T16:49:23.513412Z'
+      name: Microsoft Corporation
+      roles:
+        - vendor
+        - cloud-provider
+        - cyber-security-research
+      identity_class: organization
+      sectors:
+        - technology
+        - commercial
+      contact_information: 'https://microsoft.com'
+    - ref_id: id_2
+      type: identity
+      spec_version: '2.1'
+      id: identity--24673cb3-c9fb-45cf-95f8-6f7419f1812b
+      created: '2026-08-02T09:23:00.174927Z'
+      modified: '2026-08-02T09:23:00.174927Z'
+      name: Cyber Security News
+      roles:
+        - news-media
+        - threat-intel-aggregator
+      identity_class: organization
+      sectors:
+        - communications
+        - technology
+      contact_information: 'https://cybersecuritynews.com'
+  vulnerability:
+    - ref_id: vu_1
+      spec_version: '2.1'
+      id: vulnerability--fc1a7df2-c797-452f-91b2-68c6fad386d5
+      created: '2026-07-28T16:43:46.892Z'
+      modified: '2026-08-26T16:49:23.51403Z'
+      name: Certighost
+      description: "Active Directory Certificate Services Elevation of Privilege Vulnerability"
+      external_references:
+        - source_name: cve
+          url: 'https://www.cve.org/CVERecord?id=CVE-2026-54121'
+          external_id: CVE-2026-54121
+        - source_name: cvss
+          description: "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C"
+          url: 'https://nvd.nist.gov/vuln/detail/CVE-2026-54121'
+          external_id: '8.8'
+        - source_name: cwe
+          description: "Improper Authorization"
+          url: 'https://cwe.mitre.org/data/definitions/285.html'
+          external_id: CWE-285
+  course-of-action:
+    - ref_id: coa_1
+      spec_version: '2.1'
+      id: course-of-action--d1155531-371d-4d90-8d20-2f5a487c6374
+      created: '2026-07-28T16:54:01.437Z'
+      modified: '2026-08-01T16:49:23.514395Z'
+      name: July 2026 Microsoft Updates
+      description: "Official patch provided by Microsoft introducing the new DC validation
+        feature."
+    - ref_id: coa_2
+      spec_version: '2.1'
+      id: course-of-action--ce610eda-c6bd-4f4a-8785-2441fcd68fb4
+      created: '2026-07-28T16:54:01.437Z'
+      modified: '2026-08-01T16:49:23.514508Z'
+      name: Disabling EDITF_ENABLECHASECLIENTDC
+      description: "Temporary Mitigation: Disable vulnerable chase fallback if the July 2026
+        patch cannot be applied immediately"
+  software:
+    - ref_id: so_1
+      spec_version: '2.1'
+      id: software--22a96754-1c46-5c9c-bda0-77b77902d598
+      name: Active Directory Certificate Services
+      vendor: id_1
+  attack-pattern:
+    - ref_id: ap_1
+      spec_version: '2.1'
+      id: attack-pattern--f6d4b301-7ac5-469c-b8a2-ae2b5749eee5
+      created: '2026-07-28T16:43:46.892Z'
+      modified: '2026-08-25T16:49:23.51477Z'
+      name: DCSync
+      description: "Allows krbtgt hash extraction. In combination with the
+        ms-DS-MachineAccountQuota setting, it would allow you to take full control
+        of the domain."
+      kill_chain_phases:
+        - kill_chain_name: mitre-att&ck
+          phase_name: "credential-access"
+      external_references:
+        - source_name: mitre-att&ck
+          description: "OS Credential Dumping: DCSync"
+          url: 'https://attack.mitre.org/techniques/T1003/006/'
+          external_id: T1003.006
+  report:
+    - ref_id: rep_1
+      name: "Certighost Active Directory CS Exploit Allows Low-Privileged Users to Compromise Domain"
+      created_by_ref: id_2
+      created: "2026-08-25T08:53:51.509Z"
+      modified: "2026-08-25T08:53:51.509Z"
+      published: "2026-07-24T09:07:01.424Z"
+      report_types:
+        - "attack-pattern"
+        - "course-of-action"
+        - "vulnerability"
+      external_references:
+        - source_name: "cyber-security-news"
+          url: "https://cybersecuritynews.com/certighost-active-directory-cs-flaw/"
+      object_refs: [
+        vu_1, ap_1, so_1, coa_1, coa_2
+      ]
+  relationship:
+    - ref_id: rel_1
+      spec_version: '2.1'
+      id: relationship--5a87922a-b98d-4d61-bd5b-43f8db0c2867
+      created: '2026-08-01T16:49:23.515168Z'
+      modified: '2026-08-01T16:49:23.515168Z'
+      relationship_type: has
+      source_ref: software--22a96754-1c46-5c9c-bda0-77b77902d598
+      target_ref: vulnerability--fc1a7df2-c797-452f-91b2-68c6fad386d5
+    - ref_id: rel_2
+      spec_version: '2.1'
+      id: relationship--0c881d35-d6a2-4228-b597-4811c466de36
+      created: '2026-08-01T16:49:23.515275Z'
+      modified: '2026-08-01T16:49:23.515275Z'
+      relationship_type: mitigates
+      source_ref: course-of-action--ce610eda-c6bd-4f4a-8785-2441fcd68fb4
+      target_ref: vulnerability--fc1a7df2-c797-452f-91b2-68c6fad386d5
+    - ref_id: rel_3
+      spec_version: '2.1'
+      id: relationship--e82117f5-9ecf-40c3-b836-433e55437fea
+      created: '2026-08-01T16:49:23.515376Z'
+      modified: '2026-08-01T16:49:23.515376Z'
+      relationship_type: remediates
+      source_ref: course-of-action--d1155531-371d-4d90-8d20-2f5a487c6374
+      target_ref: vulnerability--fc1a7df2-c797-452f-91b2-68c6fad386d5
+    - ref_id: rel_4
+      spec_version: '2.1'
+      id: relationship--2c66b88d-ebcb-4be8-9bc5-8537eb00c026
+      created: '2026-08-01T16:49:23.515483Z'
+      modified: '2026-08-01T16:49:23.515483Z'
+      relationship_type: targets
+      source_ref: attack-pattern--f6d4b301-7ac5-469c-b8a2-ae2b5749eee5
+      target_ref: vulnerability--fc1a7df2-c797-452f-91b2-68c6fad386d5
+

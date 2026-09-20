@@ -1,0 +1,579 @@
+{
+  "type": "bundle",
+  "id": "bundle--ada2053f-e87c-4066-916c-ea2773e4b9ab",
+  "objects": [
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--09eb2fbe-8823-48f3-a278-ce7e197aaf10",
+      "created": "2026-08-01T07:31:57.723Z",
+      "modified": "2026-08-01T07:31:57.723Z",
+      "name": "Cybersecurity and Infrastructure Security Agency (CISA)",
+      "roles": [
+        "csirt",
+        "government-agency"
+      ],
+      "identity_class": "organization",
+      "sectors": [
+        "government-national",
+        "defence",
+        "communications"
+      ],
+      "contact_information": "['Contact@cisa.dhs.gov', 'central@cisa.dhs.gov']"
+    },
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--24673cb3-c9fb-45cf-95f8-6f7419f1812b",
+      "created": "2026-08-02T09:23:00.174927Z",
+      "modified": "2026-08-02T09:23:00.174927Z",
+      "name": "Cyber Security News",
+      "roles": [
+        "news-media",
+        "threat-intel-aggregator"
+      ],
+      "identity_class": "organization",
+      "sectors": [
+        "communications",
+        "technology"
+      ],
+      "contact_information": "https://cybersecuritynews.com"
+    },
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--46ffc491-23fe-457f-9b0b-9823b035471a",
+      "created": "2026-08-01T08:48:46.235Z",
+      "modified": "2026-08-01T08:48:46.235Z",
+      "name": "Check Point Software Technologies Ltd.",
+      "roles": [
+        "vendor",
+        "cyber-security-research"
+      ],
+      "identity_class": "organization",
+      "sectors": [
+        "technology",
+        "commercial"
+      ],
+      "contact_information": "https://checkpoint.com"
+    },
+    {
+      "type": "vulnerability",
+      "spec_version": "2.1",
+      "id": "vulnerability--ad9b541e-54a6-42d7-bc1f-3346fc54cf22",
+      "created": "2026-08-01T08:03:48.265Z",
+      "modified": "2026-08-25T08:03:48.265Z",
+      "name": "CheckPoint vulnerability - CVE-2026-16232",
+      "description": "Authentication Bypass in the SmartConsole Login Process Using an Application Token",
+      "external_references": [
+        {
+          "source_name": "cve",
+          "url": "https://www.cve.org/CVERecord?id=CVE-2026-16232",
+          "external_id": "CVE-2026-16232"
+        },
+        {
+          "source_name": "cvss",
+          "description": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16232",
+          "external_id": "9.1"
+        },
+        {
+          "source_name": "cwe",
+          "description": "Improper Authentication",
+          "url": "https://cwe.mitre.org/data/definitions/287.html",
+          "external_id": "CWE-287"
+        }
+      ]
+    },
+    {
+      "type": "vulnerability",
+      "spec_version": "2.1",
+      "id": "vulnerability--1baf856d-bb0a-4d07-866a-a60b0d63c468",
+      "created": "2026-08-01T08:59:10.280Z",
+      "modified": "2026-08-25T08:59:10.280Z",
+      "name": "CheckPoint vulnerability - CVE-2026-62144",
+      "description": "Management Authentication Bypass and Privilege Escalation",
+      "external_references": [
+        {
+          "source_name": "cve",
+          "url": "https://www.cve.org/CVERecord?id=CVE-2026-62144",
+          "external_id": "CVE-2026-62144"
+        },
+        {
+          "source_name": "cvss",
+          "description": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62144",
+          "external_id": "9.1"
+        },
+        {
+          "source_name": "cwe",
+          "description": "Improper Authentication",
+          "url": "https://cwe.mitre.org/data/definitions/287.html",
+          "external_id": "CWE-287"
+        }
+      ]
+    },
+    {
+      "type": "vulnerability",
+      "spec_version": "2.1",
+      "id": "vulnerability--aad384bf-c899-43a4-bd77-b39122bdfa78",
+      "created": "2026-08-01T08:59:40.432Z",
+      "modified": "2026-08-25T08:59:40.432Z",
+      "name": "CheckPoint vulnerability - CVE-2026-62145",
+      "description": "Local Privilege Escalation in Gaia Portal",
+      "external_references": [
+        {
+          "source_name": "cve",
+          "url": "https://www.cve.org/CVERecord?id=CVE-2026-62145",
+          "external_id": "CVE-2026-62145"
+        },
+        {
+          "source_name": "cvss",
+          "description": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62145",
+          "external_id": "7.5"
+        },
+        {
+          "source_name": "cwe",
+          "description": "Improper Privilege Management",
+          "url": "https://cwe.mitre.org/data/definitions/269.html",
+          "external_id": "CWE-269"
+        }
+      ]
+    },
+    {
+      "type": "course-of-action",
+      "spec_version": "2.1",
+      "id": "course-of-action--5dcc0eeb-4424-49e8-ba2a-9d997d9598a0",
+      "created": "2026-08-01T09:16:16.407Z",
+      "modified": "2026-08-01T09:16:16.407Z",
+      "name": "Protect, restrict access and verify",
+      "description": "Protect Management access with Firewall, restrict access to trusted IP addresses, and verify that implied rules for control connections are enabled"
+    },
+    {
+      "type": "course-of-action",
+      "spec_version": "2.1",
+      "id": "course-of-action--81e2d93a-12d3-451b-9863-f6b4b470cc17",
+      "created": "2026-08-01T09:15:18.722Z",
+      "modified": "2026-08-01T09:15:18.722Z",
+      "name": "Limit Trusted Clients",
+      "description": "Limit Trusted Clients (GUI clients) to trusted IP addresses/subnets"
+    },
+    {
+      "type": "course-of-action",
+      "spec_version": "2.1",
+      "id": "course-of-action--6bd45bfd-7e87-426c-974c-405e0eebc8eb",
+      "created": "2026-08-01T09:09:49.386Z",
+      "modified": "2026-08-01T09:09:49.386Z",
+      "name": "Jumbo hotfix",
+      "description": "July 2026 Official CheckPoint Update"
+    },
+    {
+      "type": "software",
+      "spec_version": "2.1",
+      "id": "software--e985ea47-d1c0-4754-a948-560852e4b9a8",
+      "name": "Check Point Multi-Domain Security Management",
+      "vendor": "identity--46ffc491-23fe-457f-9b0b-9823b035471a"
+    },
+    {
+      "type": "software",
+      "spec_version": "2.1",
+      "id": "software--b61a7bf8-7cbe-40a3-9b25-75908f6daf96",
+      "name": "GaiaOS WebUI",
+      "vendor": "identity--46ffc491-23fe-457f-9b0b-9823b035471a"
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--fd1d0bb5-456e-44eb-9aeb-91370b34274a",
+      "created": "2026-08-01T09:53:37.960Z",
+      "modified": "2026-08-01T09:53:37.960Z",
+      "name": "Access to SmartConsole",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-att&ck",
+          "phase_name": "Initial Access"
+        }
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-att&ck",
+          "description": "Initial Access/Exploit Public-Facing Application",
+          "url": "https://attack.mitre.org/techniques/T1190/",
+          "external_id": "T1190"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--d2211eb1-94fc-4988-81ef-99d9ac0d7606",
+      "value": "151.241.99[.]207",
+      "defanged": true
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--8741232b-b230-42fd-9675-b65d9adb2a8c",
+      "value": "151.241.99[.]233",
+      "defanged": true
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--58887340-60fd-4bea-a97c-282e5394576c",
+      "value": "158.62.198[.]182",
+      "defanged": true
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--35add4df-2be3-4e08-8441-5bb435f24abd",
+      "value": "192.142.10[.]99",
+      "defanged": true
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--cf14f1e0-cbf8-4fac-b616-1cfdbe8332f3",
+      "value": "139.28.37[.]250",
+      "defanged": true
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--49d81eea-96b1-4b12-adca-0bc8f64dcd88",
+      "value": "194.213.18[.]137",
+      "defanged": true
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d43bdfdb-dfdc-44bd-9f6d-ff063a861c75",
+      "created": "2026-08-01T10:38:49.292Z",
+      "modified": "2026-08-25T10:38:49.292Z",
+      "pattern": "[ipv4-addr:value = '139.28.37.250']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-07-01T10:35:59.298Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--fed1cee8-ab48-4a5d-aacf-68092b72d250",
+      "created": "2026-08-01T10:39:15.003Z",
+      "modified": "2026-08-25T10:39:15.003Z",
+      "pattern": "[ipv4-addr:value = '194.213.18.137']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-07-01T10:35:59.298Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e0f5f84f-bccd-4e2e-8628-bfc632d4a09c",
+      "created_by_ref": "identity--46ffc491-23fe-457f-9b0b-9823b035471a",
+      "created": "2026-08-01T10:37:51.733Z",
+      "modified": "2026-08-01T10:37:51.733Z",
+      "pattern": "[ipv4-addr:value = '192.142.10.99']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-07-01T10:35:59.298Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--87810bfd-57ad-4c9e-b27b-ecd2f24ea93d",
+      "created_by_ref": "identity--46ffc491-23fe-457f-9b0b-9823b035471a",
+      "created": "2026-08-01T10:35:59.298Z",
+      "modified": "2026-08-01T10:35:59.298Z",
+      "pattern": "[ipv4-addr:value = '158.62.198.182']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-07-01T10:35:59.298Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a67f0abf-8885-4acf-96d4-2c2d25bc93db",
+      "created_by_ref": "identity--46ffc491-23fe-457f-9b0b-9823b035471a",
+      "created": "2026-08-01T10:35:59.298Z",
+      "modified": "2026-08-25T10:35:59.298Z",
+      "pattern": "[ipv4-addr:value = '151.241.99.233']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-07-01T10:35:59.298Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--96a1b6ff-f276-4d3d-a30b-edf9d522819a",
+      "created_by_ref": "identity--46ffc491-23fe-457f-9b0b-9823b035471a",
+      "created": "2026-08-01T10:31:01.033Z",
+      "modified": "2026-08-25T10:31:01.033Z",
+      "pattern": "[ipv4-addr:value = '151.241.99.207']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-07-01T10:35:59.298Z"
+    },
+    {
+      "type": "report",
+      "spec_version": "2.1",
+      "id": "report--5c001c8b-3be2-4004-820c-4cda84ce6d22",
+      "created_by_ref": "identity--24673cb3-c9fb-45cf-95f8-6f7419f1812b",
+      "created": "2026-08-25T09:00:56.904Z",
+      "modified": "2026-08-25T09:00:56.904Z",
+      "name": "CISA Warns of Check Point Authentication Vulnerability Actively Exploited in the Wild",
+      "published": "2026-07-23T09:00:56.904Z",
+      "object_refs": [
+        "vulnerability--ad9b541e-54a6-42d7-bc1f-3346fc54cf22",
+        "vulnerability--1baf856d-bb0a-4d07-866a-a60b0d63c468",
+        "vulnerability--aad384bf-c899-43a4-bd77-b39122bdfa78",
+        "indicator--d43bdfdb-dfdc-44bd-9f6d-ff063a861c75",
+        "indicator--fed1cee8-ab48-4a5d-aacf-68092b72d250",
+        "indicator--e0f5f84f-bccd-4e2e-8628-bfc632d4a09c",
+        "indicator--87810bfd-57ad-4c9e-b27b-ecd2f24ea93d",
+        "indicator--a67f0abf-8885-4acf-96d4-2c2d25bc93db",
+        "indicator--96a1b6ff-f276-4d3d-a30b-edf9d522819a",
+        "ipv4-addr--d2211eb1-94fc-4988-81ef-99d9ac0d7606",
+        "ipv4-addr--8741232b-b230-42fd-9675-b65d9adb2a8c",
+        "ipv4-addr--58887340-60fd-4bea-a97c-282e5394576c",
+        "ipv4-addr--35add4df-2be3-4e08-8441-5bb435f24abd",
+        "ipv4-addr--cf14f1e0-cbf8-4fac-b616-1cfdbe8332f3",
+        "ipv4-addr--49d81eea-96b1-4b12-adca-0bc8f64dcd88",
+        "attack-pattern--fd1d0bb5-456e-44eb-9aeb-91370b34274a",
+        "software--e985ea47-d1c0-4754-a948-560852e4b9a8",
+        "software--b61a7bf8-7cbe-40a3-9b25-75908f6daf96",
+        "course-of-action--5dcc0eeb-4424-49e8-ba2a-9d997d9598a0",
+        "course-of-action--81e2d93a-12d3-451b-9863-f6b4b470cc17",
+        "course-of-action--6bd45bfd-7e87-426c-974c-405e0eebc8eb"
+      ],
+      "external_references": [
+        {
+          "source_name": "cyber-security-news",
+          "url": "https://cybersecuritynews.com/check-point-vulnerability-exploited/"
+        }
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--c62d0b4a-f3b7-45b3-9edc-7c8047515a48",
+      "created": "2026-08-01T11:08:47.761737Z",
+      "modified": "2026-08-01T11:08:47.761737Z",
+      "relationship_type": "remediates",
+      "source_ref": "course-of-action--6bd45bfd-7e87-426c-974c-405e0eebc8eb",
+      "target_ref": "vulnerability--ad9b541e-54a6-42d7-bc1f-3346fc54cf22"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--f1dadb04-92bb-40cd-a547-1228d02b976e",
+      "created": "2026-08-01T11:08:47.762842Z",
+      "modified": "2026-08-25T11:08:47.762842Z",
+      "relationship_type": "based_on",
+      "source_ref": "indicator--d43bdfdb-dfdc-44bd-9f6d-ff063a861c75",
+      "target_ref": "ipv4-addr--cf14f1e0-cbf8-4fac-b616-1cfdbe8332f3"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--a333f498-80d0-4280-a191-6d768ad0c52b",
+      "created": "2026-08-01T11:08:47.762913Z",
+      "modified": "2026-08-25T11:08:47.762913Z",
+      "relationship_type": "based_on",
+      "source_ref": "indicator--fed1cee8-ab48-4a5d-aacf-68092b72d250",
+      "target_ref": "ipv4-addr--49d81eea-96b1-4b12-adca-0bc8f64dcd88"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--bcc6d18c-1825-4c64-a356-f1ea1c342615",
+      "created": "2026-08-01T11:08:47.762981Z",
+      "modified": "2026-08-25T11:08:47.762981Z",
+      "relationship_type": "based_on",
+      "source_ref": "indicator--e0f5f84f-bccd-4e2e-8628-bfc632d4a09c",
+      "target_ref": "ipv4-addr--35add4df-2be3-4e08-8441-5bb435f24abd"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--55f410e7-76b0-4696-b481-3c1af9fb8bba",
+      "created": "2026-08-01T11:08:47.763046Z",
+      "modified": "2026-08-25T11:08:47.763046Z",
+      "relationship_type": "based_on",
+      "source_ref": "indicator--87810bfd-57ad-4c9e-b27b-ecd2f24ea93d",
+      "target_ref": "ipv4-addr--58887340-60fd-4bea-a97c-282e5394576c"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--e6cf6a05-4d2e-431e-977a-46ba67a23f24",
+      "created": "2026-08-01T11:08:47.763115Z",
+      "modified": "2026-08-01T11:08:47.763115Z",
+      "relationship_type": "based_on",
+      "source_ref": "indicator--a67f0abf-8885-4acf-96d4-2c2d25bc93db",
+      "target_ref": "ipv4-addr--8741232b-b230-42fd-9675-b65d9adb2a8c"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--61cc7e62-96b7-4cf4-81bb-af41af2d0a52",
+      "created": "2026-08-01T11:08:47.763182Z",
+      "modified": "2026-08-25T11:08:47.763182Z",
+      "relationship_type": "based_on",
+      "source_ref": "indicator--96a1b6ff-f276-4d3d-a30b-edf9d522819a",
+      "target_ref": "ipv4-addr--d2211eb1-94fc-4988-81ef-99d9ac0d7606"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--91660bf7-4d47-4290-ae5c-a54717b3e09b",
+      "created": "2026-08-01T11:08:47.762775Z",
+      "modified": "2026-08-01T11:08:47.762775Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--fed1cee8-ab48-4a5d-aacf-68092b72d250",
+      "target_ref": "attack-pattern--fd1d0bb5-456e-44eb-9aeb-91370b34274a"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--8b887f97-d0be-44c7-8aff-1e52066dc398",
+      "created": "2026-08-01T11:08:47.762709Z",
+      "modified": "2026-08-01T11:08:47.762709Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--d43bdfdb-dfdc-44bd-9f6d-ff063a861c75",
+      "target_ref": "attack-pattern--fd1d0bb5-456e-44eb-9aeb-91370b34274a"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--ee7dc08c-9fd9-4bef-a2f2-3bcea47b2e51",
+      "created": "2026-08-01T11:08:47.762643Z",
+      "modified": "2026-08-01T11:08:47.762643Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--e0f5f84f-bccd-4e2e-8628-bfc632d4a09c",
+      "target_ref": "attack-pattern--fd1d0bb5-456e-44eb-9aeb-91370b34274a"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--d1c1eec5-1a5b-4201-9a5b-60b26c10aaa1",
+      "created": "2026-08-01T11:08:47.762579Z",
+      "modified": "2026-08-01T11:08:47.762579Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--87810bfd-57ad-4c9e-b27b-ecd2f24ea93d",
+      "target_ref": "attack-pattern--fd1d0bb5-456e-44eb-9aeb-91370b34274a"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--29a34cad-28f9-4c8c-a560-eead780a4608",
+      "created": "2026-08-01T11:08:47.762443Z",
+      "modified": "2026-08-01T11:08:47.762443Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--96a1b6ff-f276-4d3d-a30b-edf9d522819a",
+      "target_ref": "attack-pattern--fd1d0bb5-456e-44eb-9aeb-91370b34274a"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--9c6f890e-0955-4d13-8ef1-450b4535597b",
+      "created": "2026-08-01T11:08:47.762512Z",
+      "modified": "2026-08-01T11:08:47.762512Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--a67f0abf-8885-4acf-96d4-2c2d25bc93db",
+      "target_ref": "attack-pattern--fd1d0bb5-456e-44eb-9aeb-91370b34274a"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--f5494477-3cfb-490b-b4df-10e3b9c7fc23",
+      "created": "2026-08-01T11:08:47.762373Z",
+      "modified": "2026-08-01T11:08:47.762373Z",
+      "relationship_type": "targets",
+      "source_ref": "attack-pattern--fd1d0bb5-456e-44eb-9aeb-91370b34274a",
+      "target_ref": "vulnerability--ad9b541e-54a6-42d7-bc1f-3346fc54cf22"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--96791df5-efb8-484f-97b2-d0ed12657b40",
+      "created": "2026-08-01T11:08:47.762167Z",
+      "modified": "2026-08-01T11:08:47.762167Z",
+      "relationship_type": "has",
+      "source_ref": "software--e985ea47-d1c0-4754-a948-560852e4b9a8",
+      "target_ref": "vulnerability--aad384bf-c899-43a4-bd77-b39122bdfa78"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--03b9255d-f4aa-4c67-8908-99fa102aadd7",
+      "created": "2026-08-01T11:08:47.762237Z",
+      "modified": "2026-08-01T11:08:47.762237Z",
+      "relationship_type": "has",
+      "source_ref": "software--e985ea47-d1c0-4754-a948-560852e4b9a8",
+      "target_ref": "vulnerability--1baf856d-bb0a-4d07-866a-a60b0d63c468"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--fc6049c5-28c6-489d-bc5d-d6604de7e1bc",
+      "created": "2026-08-01T11:08:47.762304Z",
+      "modified": "2026-08-01T11:08:47.762304Z",
+      "relationship_type": "has",
+      "source_ref": "software--e985ea47-d1c0-4754-a948-560852e4b9a8",
+      "target_ref": "vulnerability--ad9b541e-54a6-42d7-bc1f-3346fc54cf22"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--7f2fa41c-fba1-474b-ad7f-5d5b595762e7",
+      "created": "2026-08-01T11:08:47.761884Z",
+      "modified": "2026-08-01T11:08:47.761884Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--5dcc0eeb-4424-49e8-ba2a-9d997d9598a0",
+      "target_ref": "vulnerability--ad9b541e-54a6-42d7-bc1f-3346fc54cf22"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--a319bdfd-cd0b-4f2e-90be-543eb9ed0cab",
+      "created": "2026-08-01T11:08:47.761952Z",
+      "modified": "2026-08-01T11:08:47.761952Z",
+      "relationship_type": "remediates",
+      "source_ref": "course-of-action--6bd45bfd-7e87-426c-974c-405e0eebc8eb",
+      "target_ref": "vulnerability--1baf856d-bb0a-4d07-866a-a60b0d63c468"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--e0b0a7eb-ea11-4865-a1cb-668f90993915",
+      "created": "2026-08-01T11:08:47.762026Z",
+      "modified": "2026-08-01T11:08:47.762026Z",
+      "relationship_type": "remediates",
+      "source_ref": "course-of-action--6bd45bfd-7e87-426c-974c-405e0eebc8eb",
+      "target_ref": "vulnerability--aad384bf-c899-43a4-bd77-b39122bdfa78"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--c10ca714-a261-4cd7-a0a9-db6367aa1cbf",
+      "created": "2026-08-01T11:08:47.762094Z",
+      "modified": "2026-08-01T11:08:47.762094Z",
+      "relationship_type": "has",
+      "source_ref": "software--b61a7bf8-7cbe-40a3-9b25-75908f6daf96",
+      "target_ref": "vulnerability--aad384bf-c899-43a4-bd77-b39122bdfa78"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--4ddfc56f-22f4-4db4-933b-c93e233d5a9c",
+      "created": "2026-08-01T11:08:47.761814Z",
+      "modified": "2026-08-01T11:08:47.761814Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--81e2d93a-12d3-451b-9863-f6b4b470cc17",
+      "target_ref": "vulnerability--ad9b541e-54a6-42d7-bc1f-3346fc54cf22"
+    }
+  ]
+}

@@ -1,0 +1,1385 @@
+type: bundle
+id: bundle--dbfa448c-9346-4b6b-9b40-706c70eb578a
+objects:
+  identity:
+    - ref_id: id_1
+      spec_version: '2.1'
+      created: '2026-08-02T09:23:00.174927Z'
+      modified: '2026-08-02T09:23:00.174927Z'
+      name: Cyber Security News
+      roles:
+        - news-media
+        - threat-intel-aggregator
+      identity_class: organization
+      sectors:
+        - communications
+        - technology
+      contact_information: 'https://cybersecuritynews.com'
+    - ref_id: id_2
+      spec_version: '2.1'
+      created: '2026-08-03T17:08:53.241124Z'
+      modified: '2026-08-03T17:08:53.241124Z'
+      name: CERT-UA
+      roles:
+        - csirt
+        - cybersecurity
+        - incident-response-team
+      identity_class: organization
+      sectors:
+        - government-national
+        - communications
+        - defence
+      contact_information: 'https://cert.gov.ua/'
+    - ref_id: id_3
+      identity_class: "individual"
+      name: "Gaia Emme" 
+  campaign:
+    - ref_id: ca_1
+      spec_version: '2.1'
+      created: '2026-08-03T17:08:53.241124Z'
+      modified: "2026-09-08T16:26:55.562Z"
+      first_seen: '2026-07-20T17:08:53.241124Z'
+      name: 'Abuse Notepad++ Plugins with LUNCHPOKE, BURNYBEAR and MATCHBOIL.V2'
+  intrusion-set:
+    - ref_id: is_1
+      spec_version: '2.1'
+      created: '2026-08-03T17:08:53.241124Z'
+      modified: '2026-08-03T17:08:53.241124Z'
+      name: UAC-0099
+  attack-pattern:
+    - ref_id: ap_1
+      spec_version: '2.1'
+      created: '2026-08-03T17:08:53.241124Z'
+      modified: '2026-08-03T17:08:53.241124Z'
+      name: Phishing
+      kill_chain_phases:
+        - kill_chain_name: mitre-att&ck
+          phase_name: initial-access
+      external_references:
+        - source_name: mitre-att&ck
+          description: Phishing
+          url: 'https://attack.mitre.org/techniques/T1566/'
+          external_id: T1566
+    - ref_id: ap_2
+      spec_version: '2.1'
+      created: '2026-08-03T17:08:53.241124Z'
+      modified: '2026-08-25T17:08:53.241124Z'
+      name: Double File Extension
+      kill_chain_phases:
+        - kill_chain_name: mitre-att&ck
+          phase_name: stealth
+      external_references:
+        - source_name: mitre-att&ck
+          description: Masquerading:Double File Extension
+          url: 'https://attack.mitre.org/techniques/T1036/007/'
+          external_id: T1036.007
+    - ref_id: ap_3
+      spec_version: '2.1'
+      created: '2026-08-03T17:08:53.241124Z'
+      modified: '2026-08-03T17:08:53.241124Z'
+      name: User Execution
+      kill_chain_phases:
+        - kill_chain_name: mitre-att&ck
+          phase_name: execution
+      external_references:
+        - source_name: mitre-att&ck
+          description: User Execution
+          url: 'https://attack.mitre.org/techniques/T1204/'
+          external_id: T1204
+    - ref_id: ap_4
+      spec_version: '2.1'
+      created: '2026-08-03T17:08:53.241124Z'
+      modified: '2026-08-03T17:08:53.241124Z'
+      name: Command and Scripting Interpreter
+      kill_chain_phases:
+        - kill_chain_name: mitre-att&ck
+          phase_name: execution
+      external_references:
+        - source_name: mitre-att&ck
+          description: Command and Scripting Interpreter
+          url: 'https://attack.mitre.org/techniques/T1059/'
+          external_id: T1059
+    - ref_id: ap_5
+      spec_version: '2.1'
+      created: '2026-08-03T17:08:53.241124Z'
+      modified: '2026-08-25T17:08:53.241124Z'
+      name: DLL
+      kill_chain_phases:
+        - kill_chain_name: mitre-att&ck
+          phase_name: execution
+        - kill_chain_name: mitre-att&ck
+          phase_name: stealth
+      external_references:
+        - source_name: mitre-att&ck
+          description: Hijack Execution Flow:DLL
+          url: 'https://attack.mitre.org/techniques/T1574/001/'
+          external_id: T1574.001
+    - ref_id: ap_6
+      spec_version: '2.1'
+      created: '2026-08-03T17:08:53.241124Z'
+      modified: '2026-08-25T17:08:56.670211Z'
+      name: Rename Legitimate Utilities
+      kill_chain_phases:
+        - kill_chain_name: mitre-att&ck
+          phase_name: stealth
+      external_references:
+        - source_name: mitre-att&ck
+          description: Masquerading:Rename Legitimate Utilities
+          url: 'https://attack.mitre.org/techniques/T1036/003/'
+          external_id: T1036.003
+    - ref_id: ap_7
+      spec_version: '2.1'
+      created: '2026-08-03T17:08:53.241124Z'
+      modified: '2026-08-03T17:08:53.241124Z'
+      name: Scheduled Task/Job
+      kill_chain_phases:
+        - kill_chain_name: mitre-att&ck
+          phase_name: persistence
+        - kill_chain_name: mitre-att&ck
+          phase_name: privilege-escalation
+      external_references:
+        - source_name: mitre-att&ck
+          description: Scheduled Task/Job
+          url: 'https://attack.mitre.org/techniques/T1053/'
+          external_id: T1053
+    - ref_id: ap_8
+      spec_version: '2.1'
+      created: '2026-08-03T17:08:53.241124Z'
+      modified: '2026-08-03T17:08:53.241124Z'
+      name: Ingress Tool Transfer
+      kill_chain_phases:
+        - kill_chain_name: mitre-att&ck
+          phase_name: command-and-control
+      external_references:
+        - source_name: mitre-att&ck
+          description: Ingress Tool Transfer
+          url: 'https://attack.mitre.org/techniques/T1105/'
+          external_id: T1105
+    - ref_id: ap_9
+      created: "2026-09-11T15:15:14.426Z"
+      modified: "2026-09-11T15:15:14.426Z"
+      name: Time Based Checks
+      kill_chain_phases:
+        - kill_chain_name: mitre-att&ck
+          phase_name: stealth     
+      external_references:   
+        - source_name: mitre-att&ck
+          description: "Virtualization/Sandbox Evasion: Time Based Checks"
+          url: 'https://attack.mitre.org/techniques/T1497/003/'
+          external_id: T1497.003    
+    - ref_id: ap_10
+      created: "2026-09-11T15:15:14.426Z"
+      modified: "2026-09-11T15:15:14.426Z"
+      name: Compression
+      kill_chain_phases:
+        - kill_chain_name: mitre-att&ck
+          phase_name: stealth     
+      external_references:   
+        - source_name: mitre-att&ck
+          description: "Obfuscated Files or Information: Compression"
+          url: 'https://attack.mitre.org/techniques/T1027/015/'
+          external_id: T1027.015                   
+  tool:
+    - ref_id: to_1
+      spec_version: '2.1'
+      created: '2026-08-03T17:08:53.241124Z'
+      modified: '2026-08-03T17:08:53.241124Z'
+      name: WinRAR    
+  file:  
+    - ref_id: f_1
+      spec_version: '2.1'
+      hashes:
+        MD5: 087981426061c62e5be314c9b761c729
+        SHA-256: 9021d92a530bbb7b865d4842cc1b933e5b397d7a95c3f6a02db1c2512684222d
+      name: Заводський район.pdf    .vbs
+      size: 10559
+      mtime: '2026-07-21T08:08:53.241124Z'
+    - ref_id: f_2
+      spec_version: '2.1'
+      hashes:
+        MD5: acb3aa53d4d388f67cda8185e8da5423
+        SHA-256: 1c3457cf3cbe02b80236e6bf5346cfea46e2bf6063c7d92848f2780d87f93c0a
+      name: Додатки до розпорядження.zip
+      size: 10559      
+      extensions:
+        archive-ext:
+          contains_refs:
+            - f_1
+    - ref_id: f_3
+      spec_version: '2.1'
+      hashes:
+        MD5: 88af5d862489f3bf1e7d7dd2a23ac3e8
+        SHA-256: 9ff73802dfbfd20b78ab62ecc1a56bf739ecaf1475806a14ac6ccf02150adaa8
+      name: Додаток    7.pdf    .vbs          
+    - ref_id: f_4
+      spec_version: '2.1'
+      hashes:
+        MD5: f976c38af91074f20c2fa6f84fce0fc3
+        SHA-256: bfb1d0238d56615e792cfdbc1c5cd1bffc1e70535b0d243c351d7b534006bc80
+      name: Додатки    до    розпорядження.zip
+      extensions:
+        archive-ext:
+          contains_refs:
+            - f_3
+    - ref_id: f_5
+      spec_version: '2.1'
+      hashes:
+        MD5: 0aa3fda5567844eb0d626bd0d272bc63
+        SHA-256: 3118b82c47b96140c7d6d51394a202ac0ad889f53431e2b7d11062260e691cc3
+      name: 9206.docx    .vbs
+    - ref_id: f_6
+      spec_version: '2.1'
+      hashes:
+        MD5: c4beef83fc6557319afda9708e235bcd
+        SHA-256: 3e23b2513275a744788bb69553e603587234bee8781ed4b6215efd270c0f690c
+      name: запит    №9206.zip
+      extensions:
+        archive-ext:
+          contains_refs:
+            - f_5
+    - ref_id: f_7
+      spec_version: '2.1'
+      name: notepad++.exe
+      size: 8719360
+      extensions:
+        windows-pebinary-ext:
+          pe_type: exe
+          time_date_stamp: "2025-07-09T02:41:00.000Z"
+      parent_directory_ref: directory--23bf6bc2-e16f-559f-ac3c-afba4ba2acd5
+    - ref_id: f_8
+      spec_version: '2.1'
+      hashes:
+        MD5: 51e0149f93935807996dc12f7cde37c0
+        SHA-256: 25859c3855587309ac3e93dce531e8eca317d69568cc63b0f3c1f9466919c312
+      name: Evernote.zip
+      parent_directory_ref: directory--684e4a98-0f33-5e71-9f3f-1b557e4b5c3f
+      size: 29020462
+      extensions:
+        archive-ext:
+          contains_refs:
+            - f_7
+            - directory--7f30a648-3ccd-5847-8436-4c332df2821b
+    - ref_id: f_9
+      spec_version: '2.1'
+      hashes:
+        MD5: 86399225cad28f3a6f5808a16d5b324b
+        SHA-256: 87a574b6c3c0d2229c869388875c698fe491776dab7724e4cf3aded2c67b5364
+      name: Evernote.zip
+      parent_directory_ref: directory--684e4a98-0f33-5e71-9f3f-1b557e4b5c3f
+      extensions:
+        archive-ext:
+          contains_refs:
+            - f_7
+            - directory--7f30a648-3ccd-5847-8436-4c332df2821b
+    - ref_id: f_10
+      spec_version: '2.1'
+      hashes:
+        MD5: 19f43fac5e0240faf027872b83a495b0
+        SHA-256: bf5c85bb3149a88be3ce56783f209ee5ebeee1ee60c71ed4b3f7bc1ebcef3b2c
+      name: Заводський район.pdf 
+      parent_directory_ref: directory--99efb676-3c0e-59cf-a437-b1672959f8e4
+    - ref_id: f_11
+      spec_version: '2.1'
+      hashes:
+        MD5: 2d1dd89241625feb8bb2571c042b1e4c
+        SHA-256: f5b6b6972a09e83d4f660339af8162075248015756733c94832e466a82f5e987
+      name: 9206.docx 
+      parent_directory_ref: directory--99efb676-3c0e-59cf-a437-b1672959f8e4
+    - ref_id: f_12
+      spec_version: '2.1'
+      name: Додаток 7.pdf
+      parent_directory_ref: directory--99efb676-3c0e-59cf-a437-b1672959f8e4
+    - ref_id: f_13
+      spec_version: '2.1'
+      hashes:
+        MD5: c5850b3ebae3790941614429a7d9322b
+        SHA-256: c270432a3f16241c24d0b57838b17b2fa438a24eebf29dcbda08622de725fe21
+      name: NppExport.dll
+      mtime: "2024-07-06T12:35:00.000Z"
+      size: 133632
+      extensions:
+        windows-pebinary-ext:
+          pe_type: dll
+      parent_directory_ref: directory--7f30a648-3ccd-5847-8436-4c332df2821b
+    - ref_id: f_14
+      spec_version: '2.1'
+      hashes:
+        MD5: 59644121b4301ed64a5b44efc2c4b279
+        SHA-256: 2ab26f8d6a51694bd4c143b9389db824f48d496b1616a38b5edb882e50b2a906
+      name: NppExport.dll
+      parent_directory_ref: directory--7f30a648-3ccd-5847-8436-4c332df2821b
+    - ref_id: f_18
+      spec_version: '2.1'
+      hashes:
+        MD5: b304986e947fe26a40e454426d90ef50
+        SHA-256: 838512a8a88f584a5d9a61cff17da0db7fa5886cccce2f84652ccb6e7808b090
+      name: RemoteLibUpdater.exe
+      size: 25600
+      mtime: "2024-07-06T12:45:00.000Z"
+      parent_directory_ref: directory--80af4813-ab3b-57ab-b369-9a05fcf1df52
+    - ref_id: f_20
+      spec_version: '2.1'
+      hashes:
+        MD5: 65a14c42358f8da7a450089141bdc690
+        SHA-256: 78cb23c739d24513b25f477183566c9fce0b329696e05482065f1bf01629c606
+      name: InitTest.dll
+      size: 108032
+      mtime: "2026-07-07T10:17:00.000Z"
+    - ref_id: f_15
+      spec_version: '2.1'
+      hashes:
+        MD5: 5f4cefc64eab929296f4fe25b04d37ab
+        SHA-256: 85126d45d9fcdbcc084e2a7fdc449337a12dd50c6a25fd8903c41f5b351556f8
+      name: updater.rar
+      size: 299518
+      mtime: "2026-07-07T10:17:00.000Z"
+      parent_directory_ref: directory--7f30a648-3ccd-5847-8436-4c332df2821b
+      extensions:
+        archive-ext:
+          contains_refs:
+            - f_18
+            - f_20
+    - ref_id: f_19
+      spec_version: '2.1'
+      hashes:
+        MD5: ca1f7daf21f1524c724a20a6fc2533d0
+        SHA-256: 100102966d6d5c000b556e0451c63d03702b31c755f3f46071ea4077a1aab892
+      name: RemoteLibUpdater.exe
+      parent_directory_ref: directory--80af4813-ab3b-57ab-b369-9a05fcf1df52
+    - ref_id: f_21
+      spec_version: '2.1'
+      hashes:
+        MD5: 6fdd9b6040b943d5a24701149020e7a4
+        SHA-256: d40b83d827f5b749ecec66eee09cd2c455094ad939a83a35c42af3f641871e2c
+      name: InitTest.dll
+    - ref_id: f_16
+      spec_version: '2.1'
+      hashes:
+        MD5: 25889b954a33377f3260637c13f93ccf
+        SHA-256: 285f788ca4153994cbc4e017222b43a2c3ae9405650707cf617bf1575e90f3b9
+      name: updater.rar
+      parent_directory_ref: directory--7f30a648-3ccd-5847-8436-4c332df2821b
+      extensions:
+        archive-ext:
+          contains_refs:
+            - f_19
+            - f_21
+    - ref_id: f_17
+      spec_version: '2.1'
+      name: winrar.exe
+      mtime: "2024-05-15T10:35:00.000Z"
+      size: 3286680
+      extensions:
+        windows-pebinary-ext:
+          pe_type: exe      
+      parent_directory_ref: directory--7f30a648-3ccd-5847-8436-4c332df2821b
+    - ref_id: f_17a
+      name: WinRAR.exe
+      parent_directory_ref: directory--174f2cbc-4277-5664-a7e0-108e5ce164f6
+      extensions:
+        windows-pebinary-ext:
+          pe_type: exe       
+    - ref_id: f_22
+      spec_version: '2.1'
+      name: schtasks.exe
+      parent_directory_ref: directory--77d95dba-cc87-50dd-8d2b-f1d8edaf2768
+    - ref_id: f_23
+      spec_version: '2.1'
+      name: Background.exe
+      parent_directory_ref: directory--9906a7f2-633b-51c5-8c97-4f7a109fe5ed
+    - ref_id: f_24
+      spec_version: '2.1'
+      name: Thumbs.DB
+      parent_directory_ref: directory--03d01600-1352-5704-8a3d-a6cbed82ee73
+    - ref_id: f_25
+      spec_version: '2.1'
+      name: Thumbs.rar
+      parent_directory_ref: directory--03d01600-1352-5704-8a3d-a6cbed82ee73
+    - ref_id: f_26
+      spec_version: '2.1'
+      name: SMTPClientApplication.exe
+      parent_directory_ref: directory--4951bf7b-8208-598d-a019-c001d494174d
+    - ref_id: f_27
+      spec_version: '2.1'
+      name: config.ini
+      parent_directory_ref: directory--4951bf7b-8208-598d-a019-c001d494174d
+    - ref_id: f_28
+      spec_version: '2.1'
+      name: RemoteFileViewer.exe
+      parent_directory_ref: directory--cd2ef70d-329a-5527-95a0-ea858afa43ea
+  directory:
+    - ref_id: dir_1
+      id: directory--23bf6bc2-e16f-559f-ac3c-afba4ba2acd5
+      spec_version: '2.1'
+      path: '%PUBLIC%\Libs_%RAND_INT_0-999999%\Notepad\'
+      contains_refs:
+        - f_7
+    - ref_id: dir_2
+      id: directory--684e4a98-0f33-5e71-9f3f-1b557e4b5c3f
+      spec_version: '2.1'
+      path: '%PUBLIC%\Libs_%RAND_INT_0-999999%\'
+      contains_refs:
+        - dir_1
+        - f_8
+        - f_9
+    - ref_id: dir_3
+      id: directory--99efb676-3c0e-59cf-a437-b1672959f8e4
+      spec_version: '2.1'
+      path: '%PUBLIC%\Temp Documents\'
+      contains_refs:
+        - f_10
+        - f_11
+        - f_12
+    - ref_id: dir_4
+      id: directory--7f30a648-3ccd-5847-8436-4c332df2821b
+      spec_version: '2.1'
+      path: \plugins\NppExport
+      contains_refs:
+        - f_13
+        - f_15
+        - f_17
+        - f_14
+        - f_16               
+    - ref_id: dir_5
+      id: directory--174f2cbc-4277-5664-a7e0-108e5ce164f6
+      spec_version: '2.1'
+      path: '%LOCALAPPDATA%\Temp\'
+      contains_refs:
+        - f_17
+    - ref_id: dir_6
+      id: directory--80af4813-ab3b-57ab-b369-9a05fcf1df52
+      spec_version: '2.1'
+      path: '%PUBLIC%\Libraries\W1n3r-U09oTy-Ap5\'
+      contains_refs:
+        - f_18
+        - f_19
+    - ref_id: dir_7
+      id: directory--9d9f8b32-906f-5df8-9c4b-f73dcec3b59e
+      spec_version: '2.1'
+      path: '%PUBLIC%\Libraries\fFthY3-Ytrevc3w-ab3\'
+      contains_refs:
+        - f_18
+        - f_19
+        - f_20
+        - f_21
+    - ref_id: dir_8
+      id: directory--77d95dba-cc87-50dd-8d2b-f1d8edaf2768
+      spec_version: '2.1'
+      path: 'C:\Windows\System32\'
+    - ref_id: dir_9
+      id: directory--9906a7f2-633b-51c5-8c97-4f7a109fe5ed
+      spec_version: '2.1'
+      path: '%PUBLIC%\Wallpapers\'
+      contains_refs:
+        - f_23
+    - ref_id: dir_10
+      id: directory--03d01600-1352-5704-8a3d-a6cbed82ee73
+      spec_version: '2.1'
+      path: '%PUBLIC%\Documents\'
+      contains_refs:
+        - f_24
+        - f_25
+    - ref_id: dir_11
+      id: directory--4951bf7b-8208-598d-a019-c001d494174d
+      spec_version: '2.1'
+      path: '%LOCALAPPDATA%\SMTPClient\'
+      contains_refs:
+        - f_26
+        - f_27
+    - ref_id: dir_12
+      id: directory--cd2ef70d-329a-5527-95a0-ea858afa43ea
+      spec_version: '2.1'
+      path: '%LOCALAPPDATA%\RemoteClient\'
+      contains_refs:
+        - f_28
+  url:
+    - ref_id: u_1
+      spec_version: '2.1'
+      value: >-
+        hXXps://2111.filemail[.]com/api/file/get?filekey=_GyHdjqA1jZk9GBKUwPTyvQXi1845xJM8aJ90NJYqQfZr09s2Kbv21C8oOXYSoamIdNKjcHZpFbwRMiLelxCD_DuAz3B
+      defanged: true
+    - ref_id: u_2
+      spec_version: '2.1'
+      value: >-
+        hXXps://3008.filemail[.]com/api/file/get?filekey=3abVeFuPB6y_BRqYcrv3SiX_xX76hS5HS0o7uNSA5_5vIyhNnXCinrJ50pUQJ6zP0nxjpl4K
+      defanged: true
+    - ref_id: u_3
+      spec_version: '2.1'
+      value: >-
+        hXXps://2117.filemail[.]com/api/file/get?filekey=Edzhz0KXaXC1Ncob7gwQcdfcUYmO78aRW5qZ66N0Xe7cTgTBS-LAPZYHzQ
+      defanged: true
+    - ref_id: u_4
+      spec_version: '2.1'
+      value: >-
+        hXXps://9d0be5e43042be826d3e5e2a880a311d.r2.cloudflarestorage[.]com/easysend/4c6b5985b6ea1bd365a9426ff2f96a1e.zip
+      defanged: true
+    - ref_id: u_5
+      spec_version: '2.1'
+      value: >-
+        hXXps://9d0be5e43042be826d3e5e2a880a311d.r2.cloudflarestorage[.]com/easysend/0f86e2fc7ca538e9f5c0f04ea1856e03.zip
+      defanged: true
+    - ref_id: u_6
+      spec_version: '2.1'
+      value: >-
+        hXXps://cdn.imageurlgenerator[.]com/uploads/19b5c23d-a191-4a73-b200-1a89ff953607.txt
+      defanged: true
+    - ref_id: u_7
+      spec_version: '2.1'
+      value: >-
+        hXXps://cdn.imageurlgenerator[.]com/uploads/4dc169b0-dbed-4485-bcc0-1c0f78316445.zip
+      defanged: true
+    - ref_id: u_8
+      spec_version: '2.1'
+      value: >-
+        hXXps://www.dropbox[.]com/scl/fi/yewyhqs2zlclen1q9i7mp/WinRAR.exe?rlkey=ks0f020ufkfgbf8hb20fayz2w&st=vcaaa4ld&dl=1
+      defanged: true
+    - ref_id: u_9
+      spec_version: '2.1'
+      value: 'hXXps://kaufen-qpon[.]icu/manager/%TOKEN%'
+      defanged: true
+    - ref_id: u_10
+      spec_version: '2.1'
+      value: 'hXXps://cutt[.]ly/cywqWxow'
+      defanged: true
+    - ref_id: u_11
+      spec_version: '2.1'
+      value: 'hXXps://cutt[.]ly/OytaqyAq'
+      defanged: true
+    - ref_id: u_12
+      spec_version: '2.1'
+      value: 'hXXps://cutt[.]ly/kt6zygri'
+      defanged: true
+    - ref_id: u_13
+      spec_version: '2.1'
+      value: 'hXXps://easysend[.]co/d/6160'
+      defanged: true
+  email-addr:
+    - ref_id: ema_1
+      spec_version: '2.1'
+      value: kancel.mkrada@ukr.net
+      display_name: "Миколаївська МР"
+  email-message:
+    - ref_id: emm_1
+      is_multipart: True
+      from_ref: ema_1
+      subject: "Зміни у плані перевірок"
+      content_type: "multipart/mixed"
+      body_multipart: [
+        {
+          "content_type": "application/zip",
+          "body_raw_ref": f_2
+        }
+      ]
+  domain-name:
+    - ref_id: dn_1
+      spec_version: '2.1'
+      value: 'kaufen-qpon[.]icu'
+      defanged: true
+    - ref_id: dn_2
+      spec_version: '2.1'
+      value: 'cdn.imageurlgenerator[.]com'
+      defanged: true      
+    - ref_id: dn_3
+      spec_version: '2.1'
+      value: 'easysend[.]co'
+      defanged: true   
+    - ref_id: dn_4
+      spec_version: '2.1'
+      value: 'filemail[.]com '
+      defanged: true         
+  ipv4-addr:
+    - ref_id: ip_1
+      spec_version: '2.1'
+      value: '64.94.84[.]204'
+      defanged: true
+  process:
+    - ref_id: pr_1
+      spec_version: '2.1'
+      command_line: >-
+        \"C:\\Users\\Public\\Wallpapers\\Background.exe\" /create /sc minute /mo 3
+        /tn \"Win3r-U09oTy-Ap5\\Updates\" /tr
+        \"C:\\Users\\Public\\Libraries\\W1n3r-U09oTy-Ap5\\RemoteLibUpdater.exe
+        setup nodisplay\" /f
+      image_ref: f_18
+  indicator:
+    - ref_id: ind_1
+      spec_version: '2.1'
+      created: '2026-08-04T10:09:20.802223Z'
+      modified: '2026-08-04T10:09:20.802223Z'
+      pattern: >-
+        [file:name = 'Заводський район.pdf    .vbs' OR file:name = 'Додаток   
+        7.pdf    .vbs' OR file:name = '9206.docx    .vbs'] OR
+        [file:hashes.'SHA-256' =
+        '9021d92a530bbb7b865d4842cc1b933e5b397d7a95c3f6a02db1c2512684222d' OR
+        file:hashes.'SHA-256' =
+        '9ff73802dfbfd20b78ab62ecc1a56bf739ecaf1475806a14ac6ccf02150adaa8' OR
+        file:hashes.'SHA-256' =
+        '3118b82c47b96140c7d6d51394a202ac0ad889f53431e2b7d11062260e691cc3']
+      pattern_type: stix
+      pattern_version: '2.1'
+      valid_from: '2026-07-01T09:07:01.424Z'
+      kill_chain_phases:
+        - kill_chain_name: mitre-att&ck
+          phase_name: stealth          
+    - ref_id: ind_2
+      spec_version: '2.1'
+      created: '2026-08-04T10:09:20.802223Z'
+      modified: '2026-09-12T16:04:01.043Z'
+      pattern: >-
+        [file:name = 'NppExport.dll'] OR [file:hashes.'SHA-256' =
+        'c270432a3f16241c24d0b57838b17b2fa438a24eebf29dcbda08622de725fe21' OR
+        file:hashes.'SHA-256' =
+        '2ab26f8d6a51694bd4c143b9389db824f48d496b1616a38b5edb882e50b2a906']
+      pattern_type: stix
+      pattern_version: '2.1'
+      valid_from: '2026-07-01T09:07:01.424Z'
+      kill_chain_phases:
+        - kill_chain_name: mitre-att&ck
+          phase_name: stealth
+        - kill_chain_name: mitre-att&ck
+          phase_name: execution          
+    - ref_id: ind_3
+      spec_version: '2.1'
+      created: '2026-08-04T10:09:20.802223Z'
+      modified: '2026-08-05T09:55:56.678907Z'
+      pattern: >-
+        [file:name = 'RemoteLibUpdater.exe'] OR [file:hashes.'SHA-256' =
+        '838512a8a88f584a5d9a61cff17da0db7fa5886cccce2f84652ccb6e7808b090' OR
+        file:hashes.'SHA-256' =
+        '100102966d6d5c000b556e0451c63d03702b31c755f3f46071ea4077a1aab892']
+      pattern_type: stix
+      pattern_version: '2.1'
+      valid_from: '2026-07-01T09:07:01.424Z'
+      kill_chain_phases:
+        - kill_chain_name: mitre-att&ck
+          phase_name: stealth
+        - kill_chain_name: mitre-att&ck
+          phase_name: execution          
+    - ref_id: ind_4
+      spec_version: '2.1'
+      created: '2026-08-04T10:09:20.802223Z'
+      modified: '2026-08-05T09:55:56.678907Z'
+      pattern: >-
+        [file:name = 'InitTest.dll'] OR [file:hashes.'SHA-256' =
+        '78cb23c739d24513b25f477183566c9fce0b329696e05482065f1bf01629c606' OR
+        file:hashes.'SHA-256' =
+        'd40b83d827f5b749ecec66eee09cd2c455094ad939a83a35c42af3f641871e2c']
+      pattern_type: stix
+      pattern_version: '2.1'
+      valid_from: '2026-07-01T09:07:01.424Z'
+      kill_chain_phases:
+        - kill_chain_name: mitre-att&ck
+          phase_name: command-and-control
+    - ref_id: ind_5
+      spec_version: '2.1'
+      created: '2026-08-04T10:09:20.802223Z'
+      modified: '2026-08-05T09:55:56.678907Z'
+      pattern: >-
+        [file:name = 'Додатки до розпорядження.zip' OR file:name = 'Додатки   
+        до    розпорядження.zip' OR file:name = 'запит    №9206.zip'] OR
+        [file:hashes.'SHA-256' =
+        '1c3457cf3cbe02b80236e6bf5346cfea46e2bf6063c7d92848f2780d87f93c0a' OR
+        file:hashes.'SHA-256' =
+        'bfb1d0238d56615e792cfdbc1c5cd1bffc1e70535b0d243c351d7b534006bc80' OR
+        file:hashes.'SHA-256' =
+        '3e23b2513275a744788bb69553e603587234bee8781ed4b6215efd270c0f690c']
+      pattern_type: stix
+      pattern_version: '2.1'
+      valid_from: '2026-07-01T09:07:01.424Z'
+      kill_chain_phases:
+        - kill_chain_name: mitre-att&ck
+          phase_name: initial-access
+    - ref_id: ind_6
+      spec_version: '2.1'
+      created: '2026-08-04T10:09:20.802223Z'
+      modified: '2026-08-04T10:09:20.802223Z'
+      pattern: (?i).*\\Background\.exe.*\\RemoteLibUpdater\.exe.*
+      pattern_type: pcre
+      valid_from: '2026-07-01T09:07:01.424Z'
+      kill_chain_phases:
+        - kill_chain_name: mitre-att&ck
+          phase_name: persistence
+        - kill_chain_name: mitre-att&ck
+          phase_name: privilege-escalation
+  malware:
+    - ref_id: ma_1
+      spec_version: '2.1'
+      created: '2026-08-03T17:08:53.241124Z'
+      modified: "2026-09-09T10:41:58.155Z"
+      name: VBS Dropper
+      capabilities:
+        - installs-other-components
+      malware_types:
+        - dropper
+        - downloader
+      first_seen: "2026-07-21T08:08:58.155Z"
+      is_family: True
+      sample_refs: [f_1, f_3, f_5]
+    - ref_id: ma_2
+      spec_version: '2.1'
+      created: '2026-08-03T17:08:53.241124Z'
+      modified: "2026-09-09T11:41:58.155Z"
+      name: LUNCHPOKE
+      description: >-
+        Create a hidden Libraries folder, extracts an archive, copy the Windows
+        schtasks.exe file to mask the persistence configuration and run BURNYBEAR
+        every 3 minutes
+      malware_types:
+        - dropper        
+      is_family: True
+      sample_refs: [f_13, f_14]
+    - ref_id: ma_3
+      spec_version: '2.1'
+      created: '2026-08-03T17:08:53.241124Z'
+      modified: '2026-08-04T10:09:20.811005Z'
+      name: BURNYBEAR
+      description: >-
+        Loading InitTest.dll and if it runs without arguments, it switches to a
+        resource-exhaustion routine
+      capabilities:
+        - violates-system-operational-integrity
+      malware_types:
+        - dropper
+        - resource-exploitation
+      is_family: True
+      sample_refs: [f_18, f_19]
+    - ref_id: ma_4
+      spec_version: '2.1'
+      created: '2026-08-03T17:08:53.241124Z'
+      modified: '2026-08-04T10:09:20.811005Z'
+      name: MATCHBOIL.V2
+      capabilities: 
+        - anti-sandbox
+        - communicates-with-c2
+      malware_types:
+        - downloader
+        - backdoor
+      is_family: true
+      sample_refs: [f_20, f_21]
+  note:
+    - ref_id: no_1
+      created: "2026-09-08T16:26:55.562Z"
+      modified: "2026-09-11T11:02:11.928Z"
+      abstract: "Confidenza media riguardo la data della prima osservazione"
+      content: "L'articolo parla di \"metà estate\", ma non specifica una data in particolare"
+      created_by_ref: id_3  
+      object_refs: [ca_1]  
+    - ref_id: no_2
+      created: "2026-09-11T11:02:11.928Z"
+      modified: "2026-09-11T11:02:11.928Z"
+      abstract: "Riflessione sul doppio richiamo a winrar nel corso della catena di attacco"
+      content: >-
+       Il fatto che WinRAR venga sia ottenuto tramite Evernote.zip nelle prime fasi, 
+       sia riscaricato nella fase finale da MATCHBOIL, qualora non già presente in ProgramFiles,
+       mi fa pensare che la catena di attacco sia stata perfezionata e, quindi, non si tratti 
+       della sua prima versione. Ciò può significare che precedenti tentativi non fossero andati 
+       a buon fine, oppure che la TTP fosse stata scoperta e si è reso necessario cambiare metodo.
+      created_by_ref: id_3
+      object_refs: [f_17, f_17a, to_1, ma_1, ma_4]
+  report:
+    - ref_id: re_1
+      spec_version: '2.1'
+      id: report--140e5882-d0d5-457e-9c82-909fad8d3bb9
+      created_by_ref: id_1
+      created: '2026-08-03T17:08:53.241124Z'
+      modified: '2026-08-04T10:09:20.811005Z'
+      name: Hackers Abuse Notepad++ Plugins to Compromise Your System Silently
+      report_types:
+        - attack-pattern
+        - intrusion-set
+        - campaign
+      published: '2026-07-23T09:07:01.424Z'
+      object_refs: [
+        is_1, ma_1, ma_2, ma_3, ma_4, ap_1, ap_2, ap_3, ap_4, ap_5, ap_6, ap_7, ap_8, ap_9,
+        ca_1, to_1, id_2, f_1, f_2, f_3
+      ]
+      external_references:
+        - source_name: cyber-security-news
+          url: 'https://cybersecuritynews.com/hackers-abuse-notepad-plugins/'
+    - ref_id: re_2
+      spec_version: '2.1'
+      created_by_ref: id_2
+      created: '2026-08-03T17:08:53.241124Z'
+      modified: '2026-09-11T15:45:14.426Z'
+      name: >-
+        UAC-0099: LUNCHPOKE, BURNYBEAR, оновлений MATCHBOIL.V2 та використання
+        Notepad++ 8.8.3
+      report_types:
+        - attack-pattern
+        - intrusion-set
+        - campaign
+      published: '2026-07-21T09:07:01.424Z'
+      object_refs: [
+        is_1, dir_1, dir_2, dir_3, dir_4, dir_5, dir_6, dir_7, dir_8, dir_9, dir_10, dir_11, dir_12,
+        pr_1, emm_1, ca_1, ap_1, ap_2, ap_3, ap_4, ap_5, ap_6, ap_7, ap_8, ap_9, ap_10, ma_1, ma_2, ma_3, 
+        ma_4, to_1, ema_1, dn_1, dn_2, dn_3, dn_4, ip_1, f_1, f_2, f_3, f_4, f_5, f_6, f_7, f_8, f_9, f_10, f_11, 
+        f_12, f_13, f_14, f_15, f_16, f_17, f_18, f_19, f_20, f_21, f_22, f_23, f_24, f_25, f_26, f_27, 
+        f_28, u_1, u_2, u_3, u_4, u_5, u_6, u_7, u_8, u_9, u_10, u_11, u_12, u_13
+      ]
+      external_references:
+        - source_name: cert-ua
+          url: 'https://cert.gov.ua/article/6318634'
+  relationship:
+    - ref_id: rel_1
+      spec_version: '2.1'
+      id: relationship--b7a4055d-4143-41e8-8b63-2c89f29bc3a4
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: attributed-to
+      source_ref: ca_1
+      target_ref: is_1   
+    - ref_id: rel_2
+      spec_version: '2.1'
+      id: relationship--b4bf4287-6c42-404a-84f8-1abfc7364d90
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: uses
+      source_ref: ca_1
+      target_ref: ap_1    
+    - ref_id: rel_3
+      spec_version: '2.1'
+      id: relationship--5d6ceda6-feeb-436d-8bf8-d62d0e334c7d
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: uses
+      source_ref: ca_1
+      target_ref: ap_2
+    - ref_id: rel_4
+      spec_version: '2.1'
+      id: relationship--b2bd6983-e50e-4055-b783-886d11488a23
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: uses
+      source_ref: ca_1
+      target_ref: ap_3
+    - ref_id: rel_5
+      spec_version: '2.1'
+      id: relationship--662af63b-584c-4920-88c2-1ab1d5f0a632
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: uses
+      source_ref: ca_1
+      target_ref: ap_4
+    - ref_id: rel_6
+      spec_version: '2.1'
+      id: relationship--b53a57a3-7a6a-49e9-b23b-88c17e34616b
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: uses
+      source_ref: ca_1
+      target_ref: ap_5
+    - ref_id: rel_7
+      spec_version: '2.1'
+      id: relationship--4e487994-a803-45d6-89ed-811658a86a22
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: uses
+      source_ref: ca_1
+      target_ref: ap_6
+    - ref_id: rel_8
+      spec_version: '2.1'
+      id: relationship--58bd1d35-8894-4850-af08-3085229c2b5a
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: uses
+      source_ref: ca_1
+      target_ref: ap_7
+    - ref_id: rel_9
+      spec_version: '2.1'
+      id: relationship--c710628f-313b-4e6b-a9df-00defdf73e85
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: uses
+      source_ref: ca_1
+      target_ref: ap_8
+    - ref_id: rel_10
+      spec_version: '2.1'
+      id: relationship--25557b42-5cdc-405b-aa6c-8946cec74d22
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: uses
+      source_ref: ca_1
+      target_ref: ap_9
+    - ref_id: rel_11
+      spec_version: '2.1'
+      id: relationship--9f8cddd8-39b7-4091-8c7b-043308278ba3
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: discovered
+      source_ref: id_2
+      target_ref: ca_1
+    - ref_id: rel_12
+      relationship_type: related-to
+      source_ref: ap_1
+      target_ref: emm_1
+      created: "2026-09-08T17:01:09.172Z"
+      modified: "2026-09-08T17:01:09.172Z"
+    - ref_id: rel_13
+      relationship_type: related-to
+      source_ref: ap_2
+      target_ref: f_1
+      created: "2026-09-09T10:35:58.155Z"
+      modified: "2026-09-09T10:35:58.155Z"   
+    - ref_id: rel_14
+      relationship_type: related-to
+      source_ref: ap_3
+      target_ref: f_1
+      created: "2026-09-09T10:38:58.155Z"
+      modified: "2026-09-09T10:38:58.155Z"
+    - ref_id: rel_14a
+      spec_version: '2.1'
+      id: relationship--730b2777-cea2-485a-b1a6-b60779d573d4
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: uses
+      source_ref: ca_1
+      target_ref: ma_1      
+    - ref_id: rel_15
+      relationship_type: uses
+      source_ref: ma_1
+      target_ref: ap_4
+      id: relationship--32530477-170b-470b-9a7b-3515cad3221e
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+    - ref_id: rel_16
+      relationship_type: creates
+      source_ref: ma_1
+      target_ref: dir_2
+      created: "2026-09-09T10:41:58.155Z"
+      modified: "2026-09-09T10:41:58.155Z"           
+    - ref_id: rel_16a
+      relationship_type: communicates-with
+      source_ref: ma_1
+      target_ref: u_1
+      created: "2026-09-09T10:41:58.155Z"
+      modified: "2026-09-09T10:41:58.155Z"        
+    - ref_id: rel_17
+      relationship_type: downloads
+      source_ref: ma_1
+      target_ref: f_10
+      created: "2026-09-09T10:41:58.155Z"
+      modified: "2026-09-09T10:41:58.155Z" 
+    - ref_id: rel_18
+      relationship_type: related-to
+      source_ref: u_1
+      target_ref: f_10
+      created: "2026-09-09T10:41:58.155Z"
+      modified: "2026-09-09T10:41:58.155Z" 
+    - ref_id: rel_19
+      relationship_type: communicates-with
+      source_ref: ma_1
+      target_ref: u_6
+      created: "2026-09-09T10:41:58.155Z"
+      modified: "2026-09-09T10:41:58.155Z"        
+    - ref_id: rel_20
+      relationship_type: downloads
+      source_ref: ma_1
+      target_ref: f_8
+      created: "2026-09-09T10:41:58.155Z"
+      modified: "2026-09-09T10:41:58.155Z" 
+    - ref_id: rel_21
+      relationship_type: creates
+      source_ref: ma_1
+      target_ref: dir_1
+      created: "2026-09-09T10:41:58.155Z"
+      modified: "2026-09-09T10:41:58.155Z"      
+    - ref_id: rel_22
+      relationship_type: related-to
+      source_ref: u_6
+      target_ref: f_8
+      created: "2026-09-09T10:41:58.155Z"
+      modified: "2026-09-09T10:41:58.155Z"   
+    - ref_id: rel_23
+      relationship_type: drops
+      source_ref: ma_1
+      target_ref: f_7
+      created: "2026-09-09T10:41:58.155Z"
+      modified: "2026-09-09T10:41:58.155Z"                                     
+    - ref_id: rel_24
+      created: "2026-09-09T17:41:58.155Z"
+      modified: "2026-09-09T17:41:58.155Z" 
+      relationship_type: drops
+      source_ref: ma_1
+      target_ref: ma_2
+    - ref_id: rel_25
+      created: "2026-09-09T17:41:58.155Z"
+      modified: "2026-09-09T17:41:58.155Z" 
+      relationship_type: drops
+      source_ref: ma_1
+      target_ref: f_15      
+    - ref_id: rel_26
+      created: "2026-09-09T17:41:58.155Z"
+      modified: "2026-09-09T17:41:58.155Z" 
+      relationship_type: drops
+      source_ref: ma_1
+      target_ref: f_17
+    - ref_id: rel_27
+      created: "2026-09-11T09:47:19.671Z"
+      modified: "2026-09-11T09:47:19.671Z" 
+      relationship_type: uses
+      source_ref: ma_1
+      target_ref: ap_5
+    - ref_id: rel_28
+      created: "2026-09-11T09:47:19.671Z"
+      modified: "2026-09-11T09:47:19.671Z" 
+      relationship_type: related-to
+      source_ref: ap_5
+      target_ref: ma_2  
+    - ref_id: rel_29
+      created: "2026-09-11T09:47:19.671Z"
+      modified: "2026-09-11T09:47:19.671Z" 
+      relationship_type: related-to
+      source_ref: ap_5
+      target_ref: f_7     
+    - ref_id: rel_30
+      created: "2026-09-11T09:47:19.671Z"
+      modified: "2026-09-11T09:47:19.671Z" 
+      relationship_type: uses
+      source_ref: ma_2
+      target_ref: dir_9              
+    - ref_id: rel_31
+      spec_version: '2.1'
+      id: relationship--ef97e495-89fd-4d06-9ab2-9a6ea254c949
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: uses
+      source_ref: ma_2
+      target_ref: ap_6
+    - ref_id: rel_32
+      created: "2026-09-11T09:47:19.671Z"
+      modified: "2026-09-11T09:47:19.671Z" 
+      relationship_type: related-to
+      source_ref: ap_6
+      target_ref: f_22  
+    - ref_id: rel_33
+      created: "2026-09-11T09:47:19.671Z"
+      modified: "2026-09-11T09:47:19.671Z" 
+      relationship_type: related-to
+      source_ref: ap_6
+      target_ref: f_23  
+    - ref_id: rel_33
+      created: "2026-09-11T09:47:19.671Z"
+      modified: "2026-09-11T09:47:19.671Z" 
+      relationship_type: creates
+      source_ref: ma_2
+      target_ref: dir_6          
+    - ref_id: rel_34
+      spec_version: '2.1'
+      id: relationship--2e35311f-56c3-4a9c-b3a8-ae945b527a9b
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: uses
+      source_ref: ma_2
+      target_ref: ap_7
+    - ref_id: rel_34a
+      created: "2026-09-11T10:23:14.998Z"
+      modified: "2026-09-11T10:23:14.998Z" 
+      relationship_type: related-to
+      source_ref: ap_7
+      target_ref: pr_1      
+    - ref_id: rel_35
+      spec_version: '2.1'
+      id: relationship--f3fd9f0e-3142-4dd2-8c00-0de651ffc003
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-09-11T10:23:14.998Z'
+      relationship_type: loads
+      source_ref: ma_3
+      target_ref: ma_4
+    - ref_id: rel_36
+      spec_version: '2.1'
+      id: relationship--9b921629-2bbe-4bee-a594-eae4ead582aa
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: communicates-with
+      source_ref: ma_4
+      target_ref: u_8
+    - ref_id: rel_37
+      spec_version: '2.1'
+      id: relationship--af3e4d35-115a-4d5c-9403-fd38abb2ecaa
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-09-11T11:02:11.928Z'
+      relationship_type: downloads
+      source_ref: ma_4
+      target_ref: f_17a  
+    - ref_id: rel_38
+      spec_version: '2.1'
+      id: relationship--a532ce8d-d0b6-49c9-9113-cff2fa58107d
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-09-11T11:02:11.928Z'
+      relationship_type: related-to
+      source_ref: to_1
+      target_ref: f_17   
+    - ref_id: rel_39
+      spec_version: '2.1'
+      created: '2026-09-11T11:02:11.928Z'
+      modified: '2026-09-11T11:02:11.928Z'
+      relationship_type: related-to
+      source_ref: to_1
+      target_ref: f_17a             
+    - ref_id: rel_40
+      spec_version: '2.1'
+      id: relationship--91300cd1-30cd-456e-bdbb-930ebfb6c8f2
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: uses
+      source_ref: ma_4
+      target_ref: ap_8 
+    - ref_id: rel_41
+      spec_version: '2.1'
+      created: "2026-09-11T15:15:14.426Z"
+      modified: "2026-09-11T15:15:14.426Z"
+      relationship_type: uses
+      source_ref: ma_4
+      target_ref: ap_9    
+    - ref_id: rel_42
+      spec_version: '2.1'
+      created: "2026-09-11T15:15:14.426Z"
+      modified: "2026-09-11T15:15:14.426Z"
+      relationship_type: uses
+      source_ref: ca_1
+      target_ref: ap_10  
+    - ref_id: rel_43
+      spec_version: '2.1'
+      created: "2026-09-11T15:45:14.426Z"
+      modified: "2026-09-11T15:45:14.426Z"
+      relationship_type: related-to
+      source_ref: f_10
+      target_ref: f_1  
+    - ref_id: rel_44
+      spec_version: '2.1'
+      created: "2026-09-11T15:45:14.426Z"
+      modified: "2026-09-11T15:45:14.426Z"
+      relationship_type: related-to
+      source_ref: f_11
+      target_ref: f_5                    
+    - ref_id: rel_45
+      spec_version: '2.1'
+      id: relationship--38b02986-0180-414a-87fc-fc0bc654d257
+      created: '2026-08-04T10:09:20.802223Z'
+      modified: '2026-08-04T10:09:20.802223Z'
+      relationship_type: related-to
+      description: >-
+        Attribution based on visual evidence in CERT-UA report figures, not
+        explicit in text
+      source_ref: ma_4
+      target_ref: f_24
+    - ref_id: rel_46
+      spec_version: '2.1'
+      id: relationship--38f4c808-25d4-4586-9c3c-9dc488f54a43
+      created: '2026-08-04T10:09:20.802223Z'
+      modified: '2026-08-04T10:09:20.802223Z'
+      relationship_type: related-to
+      description: >-
+        Attribution based on visual evidence in CERT-UA report figures, not
+        explicit in text
+      source_ref: ma_4
+      target_ref: f_25
+    - ref_id: rel_47
+      spec_version: '2.1'
+      id: relationship--96dc826d-c8ab-4af7-abad-f4259af26f20
+      created: '2026-08-04T10:09:20.802223Z'
+      modified: '2026-08-04T10:09:20.802223Z'
+      relationship_type: related-to
+      description: >-
+        Attribution based on visual evidence in CERT-UA report figures, not
+        explicit in text
+      source_ref: ma_4
+      target_ref: f_27
+    - ref_id: rel_48
+      spec_version: '2.1'
+      id: relationship--9d5eb0dc-5439-4e73-bb1e-27f8b95d8dd9
+      created: '2026-08-04T10:09:20.802223Z'
+      modified: '2026-08-04T10:09:20.802223Z'
+      relationship_type: related-to
+      description: >-
+        Attribution based on visual evidence in CERT-UA report figures, not
+        explicit in text
+      source_ref: ma_4
+      target_ref: f_28
+    - ref_id: rel_49
+      spec_version: '2.1'
+      created: "2026-09-11T16:14:11.458Z"
+      modified: "2026-09-11T16:14:11.458Z"
+      relationship_type: related-to
+      source_ref: ap_10
+      target_ref: f_2
+    - ref_id: rel_50
+      spec_version: '2.1'
+      created: "2026-09-11T16:14:11.458Z"
+      modified: "2026-09-11T16:14:11.458Z"
+      relationship_type: related-to
+      source_ref: ap_10
+      target_ref: f_4
+    - ref_id: rel_51
+      spec_version: '2.1'
+      created: "2026-09-11T16:14:11.458Z"
+      modified: "2026-09-11T16:14:11.458Z"
+      relationship_type: related-to
+      source_ref: ap_10
+      target_ref: f_6
+    - ref_id: rel_52
+      spec_version: '2.1'
+      created: "2026-09-11T16:14:11.458Z"
+      modified: "2026-09-11T16:14:11.458Z"
+      relationship_type: related-to
+      source_ref: ap_10
+      target_ref: f_18
+    - ref_id: rel_53
+      spec_version: '2.1'
+      created: "2026-09-11T16:14:11.458Z"
+      modified: "2026-09-11T16:14:11.458Z"
+      relationship_type: related-to
+      source_ref: ap_10
+      target_ref: f_15         
+    - ref_id: rel_54
+      spec_version: '2.1'
+      id: relationship--bfb40e12-34eb-4363-a28d-f2b658a2bb42
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: indicates
+      source_ref: ind_1
+      target_ref: ma_1
+    - ref_id: rel_55
+      spec_version: '2.1'
+      id: relationship--0181baf1-2310-48d2-a3b2-c90a6b2518fd
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: based-on
+      source_ref: ind_1
+      target_ref: f_1
+    - ref_id: rel_56
+      spec_version: '2.1'
+      id: relationship--3a440499-2c25-4756-80ed-c482816e842d
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: based-on
+      source_ref: ind_1
+      target_ref: f_3
+    - ref_id: rel_57
+      spec_version: '2.1'
+      id: relationship--bab48c51-5047-4b55-8e35-cc74a814eea5
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: based-on
+      source_ref: ind_1
+      target_ref: f_5
+    - ref_id: rel_58
+      spec_version: '2.1'
+      id: relationship--8291b81b-ef31-4c63-90bd-755a5c6b0d81
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: indicates
+      source_ref: ind_2
+      target_ref: ma_2
+    - ref_id: rel_59
+      spec_version: '2.1'
+      id: relationship--11d8357f-7075-44f4-9c42-21d683905e74
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: based-on
+      source_ref: ind_2
+      target_ref: f_13
+    - ref_id: rel_60
+      spec_version: '2.1'
+      id: relationship--9adffa27-bf86-4fa6-b561-2c607ce25289
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: based-on
+      source_ref: ind_2
+      target_ref: f_14
+    - ref_id: rel_61
+      spec_version: '2.1'
+      id: relationship--bd604386-ce9b-40eb-adc4-26019e0fd323
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: indicates
+      source_ref: ind_3
+      target_ref: ma_3
+    - ref_id: rel_62
+      spec_version: '2.1'
+      id: relationship--d07d1bef-08e6-40d2-af7a-3b81812b85c0
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: based-on
+      source_ref: ind_3
+      target_ref: f_18
+    - ref_id: rel_63
+      spec_version: '2.1'
+      id: relationship--db99e2a1-a0cd-4a67-8ff3-4c66168dcb9b
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: based-on
+      source_ref: ind_3
+      target_ref: f_19
+    - ref_id: rel_64
+      spec_version: '2.1'
+      id: relationship--ef1408c1-05ca-4384-888e-6625591805d7
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: indicates
+      source_ref: ind_4
+      target_ref: ma_4
+    - ref_id: rel_65
+      spec_version: '2.1'
+      id: relationship--a7cf4210-74c2-43ac-902a-3c41e03cbb3b
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: based-on
+      source_ref: ind_4
+      target_ref: f_20
+    - ref_id: rel_66
+      spec_version: '2.1'
+      id: relationship--ea396ebd-0554-4d7b-9af0-105702664fbd
+      created: '2026-08-03T17:08:53.242982Z'
+      modified: '2026-08-03T17:08:53.242982Z'
+      relationship_type: based-on
+      source_ref: ind_4
+      target_ref: f_21
+    - ref_id: rel_67
+      spec_version: '2.1'
+      id: relationship--b0c4d890-ac51-4c4f-a828-f4206ef9e702
+      created: '2026-08-04T10:09:20.802223Z'
+      modified: '2026-08-04T10:09:20.802223Z'
+      relationship_type: indicates
+      source_ref: ind_5
+      target_ref: ca_1
+    - ref_id: rel_68
+      spec_version: '2.1'
+      id: relationship--411e7f30-420c-4e42-8a7e-be66d0589e59
+      created: '2026-08-04T10:09:20.802223Z'
+      modified: '2026-08-04T10:09:20.802223Z'
+      relationship_type: based-on
+      source_ref: ind_5
+      target_ref: f_2
+    - ref_id: rel_69
+      spec_version: '2.1'
+      id: relationship--c1f314f9-fdb0-4e6f-af14-719e0b4e3842
+      created: '2026-08-04T10:09:20.802223Z'
+      modified: '2026-08-04T10:09:20.802223Z'
+      relationship_type: based-on
+      source_ref: ind_5
+      target_ref: f_4
+    - ref_id: rel_70
+      spec_version: '2.1'
+      id: relationship--366645fb-fdb1-4d8e-adfe-f2a05aa115ee
+      created: '2026-08-04T10:09:20.802223Z'
+      modified: '2026-08-04T10:09:20.802223Z'
+      relationship_type: based-on
+      source_ref: ind_5
+      target_ref: f_6
+    - ref_id: rel_71
+      spec_version: '2.1'
+      id: relationship--ee36cc99-07ca-416d-bdeb-d9f9d936c193
+      created: '2026-08-04T10:09:20.802223Z'
+      modified: '2026-08-04T10:09:20.802223Z'
+      relationship_type: indicates
+      source_ref: ind_6
+      target_ref: ma_2
+    - ref_id: rel_72
+      spec_version: '2.1'
+      id: relationship--413d5122-eb80-42f9-a3ff-61c70ad22b7f
+      created: '2026-08-04T10:09:20.802223Z'
+      modified: '2026-08-04T10:09:20.802223Z'
+      relationship_type: based-on
+      source_ref: ind_6
+      target_ref: pr_1

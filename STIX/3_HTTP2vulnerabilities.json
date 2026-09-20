@@ -1,0 +1,393 @@
+{
+  "type": "bundle",
+  "id": "bundle--bb377f22-4675-4f2e-9068-1ea3be7a6df7",
+  "objects": [
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--b97bba6b-08f1-48ff-8232-2e8327ae5cd9",
+      "created": "2026-08-01T09:23:00.171615Z",
+      "modified": "2026-08-02T09:23:00.171615Z",
+      "name": "Meta Platforms, Inc.",
+      "roles": [
+        "vendor",
+        "social-media-provider",
+        "cyber-security-research"
+      ],
+      "identity_class": "organization",
+      "sectors": [
+        "communications",
+        "entertainment-media",
+        "technology"
+      ],
+      "contact_information": "https://meta.com"
+    },
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--fc28739e-dfb4-44e4-b0ee-0412fba71132",
+      "created": "2026-08-01T09:23:00.173652Z",
+      "modified": "2026-08-01T09:23:00.173652Z",
+      "name": "Apache Software Foundation",
+      "roles": [
+        "open-source-developer",
+        "software-foundation"
+      ],
+      "identity_class": "organization",
+      "sectors": [
+        "technology"
+      ],
+      "contact_information": "https://apache.org"
+    },
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--3e7872dd-9764-4385-920e-bc901cde582c",
+      "created": "2026-08-01T09:23:00.174184Z",
+      "modified": "2026-08-01T09:23:00.174184Z",
+      "name": "F5 Networks",
+      "roles": [
+        "vendor",
+        "network-hardware-provider",
+        "cyber-security-research"
+      ],
+      "identity_class": "organization",
+      "sectors": [
+        "technology",
+        "commercial"
+      ],
+      "contact_information": "https://f5.com"
+    },
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--fa34f35d-ffd7-4f74-9eae-48261c439289",
+      "created": "2026-08-01T09:23:00.174291Z",
+      "modified": "2026-08-01T09:23:00.174291Z",
+      "name": "Okta Red Team",
+      "roles": [
+        "red-team",
+        "adversary-simulation",
+        "internal-security-testing"
+      ],
+      "identity_class": "organization",
+      "sectors": [
+        "technology",
+        "commercial"
+      ],
+      "contact_information": "https://sec.okta.com"
+    },
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--5b965ca5-c116-43c3-8d0e-d2530f2e0631",
+      "created": "2026-08-02T09:23:00.174832Z",
+      "modified": "2026-08-02T09:23:00.174832Z",
+      "name": "CERT Coordination Center",
+      "roles": [
+        "csirt",
+        "coordination-center",
+        "vulnerability-coordinator"
+      ],
+      "identity_class": "organization",
+      "sectors": [
+        "education",
+        "communications",
+        "technology"
+      ],
+      "contact_information": "https://cert.org"
+    },
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--24673cb3-c9fb-45cf-95f8-6f7419f1812b",
+      "created": "2026-08-02T09:23:00.174927Z",
+      "modified": "2026-08-02T09:23:00.174927Z",
+      "name": "Cyber Security News",
+      "roles": [
+        "news-media",
+        "threat-intel-aggregator"
+      ],
+      "identity_class": "organization",
+      "sectors": [
+        "communications",
+        "technology"
+      ],
+      "contact_information": "https://cybersecuritynews.com"
+    },
+    {
+      "type": "vulnerability",
+      "spec_version": "2.1",
+      "id": "vulnerability--0f785f67-87fd-4501-94ab-3cea0956709f",
+      "created": "2026-08-01T09:23:00.172418Z",
+      "modified": "2026-08-02T09:23:00.172418Z",
+      "name": "HTTP/2 flow-control causing OOM",
+      "description": "A remote, unauthenticated attacker could exploit HTTP/2 flow-control by setting SETTINGS_INITIAL_WINDOW_SIZE to 0 or withholding WINDOW_UPDATE frames, causing the server to buffer complete response bodies in memory indefinitely for stalled streams.",
+      "external_references": [
+        {
+          "source_name": "cve",
+          "url": "https://www.cve.org/CVERecord?id=CVE-2026-44909",
+          "external_id": "CVE-2026-44909"
+        },
+        {
+          "source_name": "cvss",
+          "description": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44909",
+          "external_id": "7.5"
+        },
+        {
+          "source_name": "cwe",
+          "description": "Allocation of Resources Without Limits or Throttling",
+          "url": "https://cwe.mitre.org/data/definitions/770.html",
+          "external_id": "CWE-770"
+        }
+      ]
+    },
+    {
+      "type": "vulnerability",
+      "spec_version": "2.1",
+      "id": "vulnerability--f51a14cc-8218-4f91-8d82-b13f7204f5e3",
+      "created": "2026-08-01T09:23:00.173937Z",
+      "modified": "2026-08-02T09:23:00.173937Z",
+      "name": "Uncontrolled Resource Consumption vulnerability",
+      "description": "Apache Traffic Server: DoS vulnerability in HTTP/2 via stalled flow-control conditions",
+      "external_references": [
+        {
+          "source_name": "cve",
+          "url": "https://www.cve.org/CVERecord?id=CVE-2026-59173",
+          "external_id": "CVE-2026-59173"
+        },
+        {
+          "source_name": "cvss",
+          "description": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59173",
+          "external_id": "7.5"
+        },
+        {
+          "source_name": "cwe",
+          "description": "Uncontrolled Resource Consumption",
+          "url": "https://cwe.mitre.org/data/definitions/400.html",
+          "external_id": "CWE-400"
+        }
+      ]
+    },
+    {
+      "type": "vulnerability",
+      "spec_version": "2.1",
+      "id": "vulnerability--f82a4ba1-fd84-4241-bd0f-98d6c65edeec",
+      "created": "2026-08-01T09:23:00.174462Z",
+      "modified": "2026-08-02T09:23:00.174462Z",
+      "name": "BIG-IP HTTP/2 vulnerability",
+      "description": "This vulnerability allows a remote, unauthenticated attacker to cause a degradation of service that can lead to a denial-of-service (DoS) on the BIG-IP system.",
+      "external_references": [
+        {
+          "source_name": "cve",
+          "url": "https://www.cve.org/CVERecord?id=CVE-2026-59762",
+          "external_id": "CVE-2026-59762"
+        },
+        {
+          "source_name": "cvss",
+          "description": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59762",
+          "external_id": "7.5"
+        },
+        {
+          "source_name": "cwe",
+          "description": "Allocation of Resources Without Limits or Throttling",
+          "url": "https://cwe.mitre.org/data/definitions/770.html",
+          "external_id": "CWE-770"
+        }
+      ]
+    },
+    {
+      "type": "software",
+      "spec_version": "2.1",
+      "id": "software--1ecaa59f-0d36-5fa1-8181-34722e8c712f",
+      "name": "Proxygen",
+      "vendor": "identity--b97bba6b-08f1-48ff-8232-2e8327ae5cd9",
+      "version": "from v2017.01.16.00before v2026.07.20.00"
+    },
+    {
+      "type": "software",
+      "spec_version": "2.1",
+      "id": "software--c0adaa18-852c-50ff-a9da-0a9938ca7fa2",
+      "name": "Apache Traffic Server",
+      "vendor": "identity--fc28739e-dfb4-44e4-b0ee-0412fba71132",
+      "version": "from 9.0.0through 9.2.13/from 10.0.0through 10.1.2"
+    },
+    {
+      "type": "software",
+      "spec_version": "2.1",
+      "id": "software--edac26e0-9dc1-5aae-9823-02b2f067626b",
+      "name": "BIG-IP",
+      "vendor": "identity--3e7872dd-9764-4385-920e-bc901cde582c",
+      "version": "['from 21.1.0 before 21.1.0.1', 'from 21.0.0 before 21.0.0.3', 'from 17.5.0 before 17.5.1.8', 'from 17.1.0before 17.1.3.4']"
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--12e2d8bd-5da4-4ac5-a2a9-1daec8888089",
+      "created": "2026-08-01T09:23:00.174735Z",
+      "modified": "2026-08-02T09:23:00.174735Z",
+      "name": "Application or System Exploitation",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-att&ck",
+          "phase_name": "impact"
+        }
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-att&ck",
+          "description": "Impact/Endpoint Denial of Service",
+          "url": "https://attack.mitre.org/techniques/T1499/004/",
+          "external_id": "T1499.004"
+        }
+      ]
+    },
+    {
+      "type": "report",
+      "spec_version": "2.1",
+      "id": "report--4f248a94-40b2-456f-baea-250d35f232a8",
+      "created_by_ref": "identity--24673cb3-c9fb-45cf-95f8-6f7419f1812b",
+      "created": "2026-08-25T09:23:00.175026Z",
+      "modified": "2026-09-08T09:23:00.175026Z",
+      "name": "New HTTP/2 Vulnerability Lets Hackers Crash Servers With Memory Exhaustion Attacks",
+      "report_types": [
+        "vulnerability"
+      ],
+      "published": "2026-07-24T09:07:01.424Z",
+      "object_refs": [
+        "identity--fa34f35d-ffd7-4f74-9eae-48261c439289",
+        "identity--5b965ca5-c116-43c3-8d0e-d2530f2e0631",
+        "vulnerability--0f785f67-87fd-4501-94ab-3cea0956709f",
+        "vulnerability--f51a14cc-8218-4f91-8d82-b13f7204f5e3",
+        "vulnerability--f82a4ba1-fd84-4241-bd0f-98d6c65edeec",
+        "attack-pattern--12e2d8bd-5da4-4ac5-a2a9-1daec8888089",
+        "software--1ecaa59f-0d36-5fa1-8181-34722e8c712f",
+        "software--c0adaa18-852c-50ff-a9da-0a9938ca7fa2",
+        "software--edac26e0-9dc1-5aae-9823-02b2f067626b"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--9995500e-c3ad-44a2-b1ce-4b05cc33bd1e",
+      "created": "2026-08-02T09:23:00.175495Z",
+      "modified": "2026-08-02T09:23:00.175495Z",
+      "relationship_type": "has",
+      "source_ref": "software--1ecaa59f-0d36-5fa1-8181-34722e8c712f",
+      "target_ref": "vulnerability--0f785f67-87fd-4501-94ab-3cea0956709f"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--e92f522e-985a-4f69-bcb0-1b453a32f9ff",
+      "created": "2026-08-02T09:23:00.176007Z",
+      "modified": "2026-08-02T09:23:00.176007Z",
+      "relationship_type": "has",
+      "source_ref": "software--c0adaa18-852c-50ff-a9da-0a9938ca7fa2",
+      "target_ref": "vulnerability--f51a14cc-8218-4f91-8d82-b13f7204f5e3"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--4e779dfe-95d0-4344-9158-79abee7d31e0",
+      "created": "2026-08-02T09:23:00.17617Z",
+      "modified": "2026-08-02T09:23:00.17617Z",
+      "relationship_type": "has",
+      "source_ref": "software--edac26e0-9dc1-5aae-9823-02b2f067626b",
+      "target_ref": "vulnerability--f82a4ba1-fd84-4241-bd0f-98d6c65edeec"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--39621452-b7c1-4124-b5f4-0f07983a7d18",
+      "created": "2026-08-01T09:23:00.17636Z",
+      "modified": "2026-08-01T09:23:00.17636Z",
+      "relationship_type": "targets",
+      "source_ref": "attack-pattern--12e2d8bd-5da4-4ac5-a2a9-1daec8888089",
+      "target_ref": "vulnerability--0f785f67-87fd-4501-94ab-3cea0956709f"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--ab8c5f02-ecd2-409a-82eb-5280d4e9c61b",
+      "created": "2026-08-01T09:23:00.176496Z",
+      "modified": "2026-08-01T09:23:00.176496Z",
+      "relationship_type": "targets",
+      "source_ref": "attack-pattern--12e2d8bd-5da4-4ac5-a2a9-1daec8888089",
+      "target_ref": "vulnerability--f51a14cc-8218-4f91-8d82-b13f7204f5e3"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--10d6c475-9a44-4994-845e-0af24c7a5fbd",
+      "created": "2026-08-01T09:23:00.176625Z",
+      "modified": "2026-08-01T09:23:00.176625Z",
+      "relationship_type": "targets",
+      "source_ref": "attack-pattern--12e2d8bd-5da4-4ac5-a2a9-1daec8888089",
+      "target_ref": "vulnerability--f82a4ba1-fd84-4241-bd0f-98d6c65edeec"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--a629f457-5f6d-44f2-ba0e-3862d3caa90b",
+      "created": "2026-08-02T09:23:00.17675Z",
+      "modified": "2026-08-02T09:23:00.17675Z",
+      "relationship_type": "discovered",
+      "source_ref": "identity--fa34f35d-ffd7-4f74-9eae-48261c439289",
+      "target_ref": "vulnerability--0f785f67-87fd-4501-94ab-3cea0956709f"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--ea5afd95-e6cf-4d8e-acbe-fb3030a8453d",
+      "created": "2026-08-02T09:23:00.176874Z",
+      "modified": "2026-08-02T09:23:00.176874Z",
+      "relationship_type": "discovered",
+      "source_ref": "identity--fa34f35d-ffd7-4f74-9eae-48261c439289",
+      "target_ref": "vulnerability--f51a14cc-8218-4f91-8d82-b13f7204f5e3"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--c072a783-9249-4726-b648-9b0d92a21a2e",
+      "created": "2026-08-02T09:23:00.177124Z",
+      "modified": "2026-08-02T09:23:00.177124Z",
+      "relationship_type": "discovered",
+      "source_ref": "identity--fa34f35d-ffd7-4f74-9eae-48261c439289",
+      "target_ref": "vulnerability--f82a4ba1-fd84-4241-bd0f-98d6c65edeec"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--5cc24586-58c1-418b-b96d-0865be4c52f9",
+      "created": "2026-08-02T09:23:00.177337Z",
+      "modified": "2026-08-02T09:23:00.177337Z",
+      "relationship_type": "coordinated-disclosure-of",
+      "source_ref": "identity--5b965ca5-c116-43c3-8d0e-d2530f2e0631",
+      "target_ref": "vulnerability--0f785f67-87fd-4501-94ab-3cea0956709f"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--41d4038c-7a2f-4b2e-b86f-d202f221b6cc",
+      "created": "2026-08-02T09:23:00.177484Z",
+      "modified": "2026-08-02T09:23:00.177484Z",
+      "relationship_type": "coordinated-disclosure-of",
+      "source_ref": "identity--5b965ca5-c116-43c3-8d0e-d2530f2e0631",
+      "target_ref": "vulnerability--f51a14cc-8218-4f91-8d82-b13f7204f5e3"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--daa3e518-da8a-44c8-94d9-c6f271cc903e",
+      "created": "2026-08-02T09:23:00.177631Z",
+      "modified": "2026-08-02T09:23:00.177631Z",
+      "relationship_type": "coordinated-disclosure-of",
+      "source_ref": "identity--5b965ca5-c116-43c3-8d0e-d2530f2e0631",
+      "target_ref": "vulnerability--f82a4ba1-fd84-4241-bd0f-98d6c65edeec"
+    }
+  ]
+}
