@@ -1,11 +1,11 @@
 {
   "type": "bundle",
-  "id": "bundle--c218d317-20d9-4df5-ba3a-9ced576e3a61",
+  "id": "bundle--eaef7db0-390f-4e7d-a40a-81c258063105",
   "objects": [
     {
       "type": "identity",
       "spec_version": "2.1",
-      "id": "identity--3c97bd75-4c67-4f36-bf36-3c6ecf97fbb3",
+      "id": "identity--24673cb3-c9fb-45cf-95f8-6f7419f1812b",
       "created": "2026-08-02T09:23:00.174927Z",
       "modified": "2026-08-02T09:23:00.174927Z",
       "name": "Cyber Security News",
@@ -43,16 +43,16 @@
     {
       "type": "identity",
       "spec_version": "2.1",
-      "id": "identity--ffe4dfb5-873c-47a0-a59b-4bce58ec1a60",
-      "created": "2026-09-17T10:04:51.384336Z",
-      "modified": "2026-09-17T10:04:51.384336Z",
+      "id": "identity--e96e82b2-cdde-5d8e-96c0-d25ae79ecd6a",
+      "created": "2026-08-04T16:43:52.076Z",
+      "modified": "2026-08-04T16:43:52.076Z",
       "name": "Gaia Emme",
       "identity_class": "individual"
     },
     {
       "type": "campaign",
       "spec_version": "2.1",
-      "id": "campaign--81bc90f3-2b6b-431d-98a2-cb70f30724eb",
+      "id": "campaign--04090d0b-329d-4e87-b657-2539f895c2c6",
       "created": "2026-08-03T17:08:53.241124Z",
       "modified": "2026-09-08T16:26:55.562Z",
       "name": "Abuse Notepad++ Plugins with LUNCHPOKE, BURNYBEAR and MATCHBOIL.V2",
@@ -61,7 +61,7 @@
     {
       "type": "intrusion-set",
       "spec_version": "2.1",
-      "id": "intrusion-set--0b67b205-8f8e-47bb-94bf-26cb15f3ba23",
+      "id": "intrusion-set--7d5f5917-641d-4b94-9694-c49f78985764",
       "created": "2026-08-03T17:08:53.241124Z",
       "modified": "2026-08-03T17:08:53.241124Z",
       "name": "UAC-0099"
@@ -69,7 +69,7 @@
     {
       "type": "attack-pattern",
       "spec_version": "2.1",
-      "id": "attack-pattern--ac328341-a1f9-4887-bc7d-2ec86fc76e2d",
+      "id": "attack-pattern--aa8e337a-b7d5-426d-85f9-98b6614ed681",
       "created": "2026-08-03T17:08:53.241124Z",
       "modified": "2026-08-03T17:08:53.241124Z",
       "name": "Phishing",
@@ -91,7 +91,7 @@
     {
       "type": "attack-pattern",
       "spec_version": "2.1",
-      "id": "attack-pattern--98a0aa04-acfd-4cd5-811c-26483ec4b442",
+      "id": "attack-pattern--e10c1fbd-adb4-4b11-9ec2-9ef3b3f00efe",
       "created": "2026-08-03T17:08:53.241124Z",
       "modified": "2026-08-25T17:08:53.241124Z",
       "name": "Double File Extension",
@@ -113,7 +113,7 @@
     {
       "type": "attack-pattern",
       "spec_version": "2.1",
-      "id": "attack-pattern--b435064e-a37a-454c-bccd-7f69203d4187",
+      "id": "attack-pattern--d1b8cf16-8f52-49cd-b82f-b52c7960abd2",
       "created": "2026-08-03T17:08:53.241124Z",
       "modified": "2026-08-03T17:08:53.241124Z",
       "name": "User Execution",
@@ -135,7 +135,7 @@
     {
       "type": "attack-pattern",
       "spec_version": "2.1",
-      "id": "attack-pattern--18f5071a-17bd-4759-8f77-a5898e3ddb67",
+      "id": "attack-pattern--0c00f039-8843-4c65-a7e3-4dd1e1765650",
       "created": "2026-08-03T17:08:53.241124Z",
       "modified": "2026-08-03T17:08:53.241124Z",
       "name": "Command and Scripting Interpreter",
@@ -157,7 +157,7 @@
     {
       "type": "attack-pattern",
       "spec_version": "2.1",
-      "id": "attack-pattern--32478a38-47ea-4c31-b7bf-004e70c7781d",
+      "id": "attack-pattern--719777c8-ab87-4803-b3dd-5771c156c3fc",
       "created": "2026-08-03T17:08:53.241124Z",
       "modified": "2026-08-25T17:08:53.241124Z",
       "name": "DLL",
@@ -183,7 +183,7 @@
     {
       "type": "attack-pattern",
       "spec_version": "2.1",
-      "id": "attack-pattern--2b0121f6-94e6-46c9-aa3a-58ad1223e710",
+      "id": "attack-pattern--a17e8cb5-be31-42b2-82de-10ab6a8e91db",
       "created": "2026-08-03T17:08:53.241124Z",
       "modified": "2026-08-25T17:08:56.670211Z",
       "name": "Rename Legitimate Utilities",
@@ -205,7 +205,7 @@
     {
       "type": "attack-pattern",
       "spec_version": "2.1",
-      "id": "attack-pattern--eb311521-8fd7-4d9f-99dd-24813e085a56",
+      "id": "attack-pattern--8985752a-db3a-430c-b33d-ccf276735166",
       "created": "2026-08-03T17:08:53.241124Z",
       "modified": "2026-08-03T17:08:53.241124Z",
       "name": "Scheduled Task/Job",
@@ -231,7 +231,7 @@
     {
       "type": "attack-pattern",
       "spec_version": "2.1",
-      "id": "attack-pattern--adc48472-3304-412d-9a88-699708f963de",
+      "id": "attack-pattern--07b1e2ba-d8de-47ec-976c-33afc87f5e66",
       "created": "2026-08-03T17:08:53.241124Z",
       "modified": "2026-08-03T17:08:53.241124Z",
       "name": "Ingress Tool Transfer",
@@ -253,7 +253,7 @@
     {
       "type": "attack-pattern",
       "spec_version": "2.1",
-      "id": "attack-pattern--7c03af72-acbf-4768-b8b7-dd1d2721322c",
+      "id": "attack-pattern--614df31c-e2e8-4261-9771-0239b0d8b915",
       "created": "2026-09-11T15:15:14.426Z",
       "modified": "2026-09-11T15:15:14.426Z",
       "name": "Time Based Checks",
@@ -275,7 +275,7 @@
     {
       "type": "attack-pattern",
       "spec_version": "2.1",
-      "id": "attack-pattern--7e8dbd02-adcb-4357-a94a-c581d5b1d3f8",
+      "id": "attack-pattern--93aa8029-5a9c-48ee-8e4a-c9b9d1459e35",
       "created": "2026-09-11T15:15:14.426Z",
       "modified": "2026-09-11T15:15:14.426Z",
       "name": "Compression",
@@ -297,7 +297,7 @@
     {
       "type": "tool",
       "spec_version": "2.1",
-      "id": "tool--360c0b98-c82b-487b-bc07-41c32809e778",
+      "id": "tool--375cabff-65de-4a37-ae8c-30fbaeaf171c",
       "created": "2026-08-03T17:08:53.241124Z",
       "modified": "2026-08-03T17:08:53.241124Z",
       "name": "WinRAR"
@@ -928,14 +928,14 @@
     {
       "type": "process",
       "spec_version": "2.1",
-      "id": "process--9cc68c3a-f823-4faf-b03a-644ab8fa9ff1",
+      "id": "process--8d2eb09b-71f8-4cb8-a240-6099c3f88798",
       "command_line": "\\\"C:\\\\Users\\\\Public\\\\Wallpapers\\\\Background.exe\\\" /create /sc minute /mo 3 /tn \\\"Win3r-U09oTy-Ap5\\\\Updates\\\" /tr \\\"C:\\\\Users\\\\Public\\\\Libraries\\\\W1n3r-U09oTy-Ap5\\\\RemoteLibUpdater.exe setup nodisplay\\\" /f",
       "image_ref": "file--2e3b49e9-7aa7-59b0-8183-e201ce488e86"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--e6133959-726a-4adb-9ec0-f05d55fb876f",
+      "id": "indicator--ea318be6-89b6-4b3b-9318-954253069c80",
       "created": "2026-08-04T10:09:20.802223Z",
       "modified": "2026-08-04T10:09:20.802223Z",
       "pattern": "[file:name = 'Заводський район.pdf    .vbs' OR file:name = 'Додаток    7.pdf    .vbs' OR file:name = '9206.docx    .vbs'] OR [file:hashes.'SHA-256' = '9021d92a530bbb7b865d4842cc1b933e5b397d7a95c3f6a02db1c2512684222d' OR file:hashes.'SHA-256' = '9ff73802dfbfd20b78ab62ecc1a56bf739ecaf1475806a14ac6ccf02150adaa8' OR file:hashes.'SHA-256' = '3118b82c47b96140c7d6d51394a202ac0ad889f53431e2b7d11062260e691cc3']",
@@ -952,7 +952,7 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--3f4ff62d-2722-4598-8d24-f73bf22e1f4f",
+      "id": "indicator--d0380574-8478-44cf-ac99-3a4a073b17c0",
       "created": "2026-08-04T10:09:20.802223Z",
       "modified": "2026-09-12T16:04:01.043Z",
       "pattern": "[file:name = 'NppExport.dll'] OR [file:hashes.'SHA-256' = 'c270432a3f16241c24d0b57838b17b2fa438a24eebf29dcbda08622de725fe21' OR file:hashes.'SHA-256' = '2ab26f8d6a51694bd4c143b9389db824f48d496b1616a38b5edb882e50b2a906']",
@@ -973,7 +973,7 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--61264512-e796-484d-9c02-a1eb16e0b419",
+      "id": "indicator--e8207255-6ea5-48e0-8c14-1a163d512bd9",
       "created": "2026-08-04T10:09:20.802223Z",
       "modified": "2026-08-05T09:55:56.678907Z",
       "pattern": "[file:name = 'RemoteLibUpdater.exe'] OR [file:hashes.'SHA-256' = '838512a8a88f584a5d9a61cff17da0db7fa5886cccce2f84652ccb6e7808b090' OR file:hashes.'SHA-256' = '100102966d6d5c000b556e0451c63d03702b31c755f3f46071ea4077a1aab892']",
@@ -994,7 +994,7 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--97bcdff6-c15a-4910-85c7-87c5358ca256",
+      "id": "indicator--72776ac5-3659-4d03-a42f-90d1bcc12362",
       "created": "2026-08-04T10:09:20.802223Z",
       "modified": "2026-08-05T09:55:56.678907Z",
       "pattern": "[file:name = 'InitTest.dll'] OR [file:hashes.'SHA-256' = '78cb23c739d24513b25f477183566c9fce0b329696e05482065f1bf01629c606' OR file:hashes.'SHA-256' = 'd40b83d827f5b749ecec66eee09cd2c455094ad939a83a35c42af3f641871e2c']",
@@ -1011,7 +1011,7 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--f6960413-fa5b-4248-b7a4-9de75a1b97b1",
+      "id": "indicator--38756227-b0c6-451f-b6cc-a0be62dcf4bd",
       "created": "2026-08-04T10:09:20.802223Z",
       "modified": "2026-08-05T09:55:56.678907Z",
       "pattern": "[file:name = 'Додатки до розпорядження.zip' OR file:name = 'Додатки    до    розпорядження.zip' OR file:name = 'запит    №9206.zip'] OR [file:hashes.'SHA-256' = '1c3457cf3cbe02b80236e6bf5346cfea46e2bf6063c7d92848f2780d87f93c0a' OR file:hashes.'SHA-256' = 'bfb1d0238d56615e792cfdbc1c5cd1bffc1e70535b0d243c351d7b534006bc80' OR file:hashes.'SHA-256' = '3e23b2513275a744788bb69553e603587234bee8781ed4b6215efd270c0f690c']",
@@ -1028,7 +1028,7 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--a6ef4177-da93-4fe1-a236-f4e267684257",
+      "id": "indicator--615f5eef-fb4b-4338-a888-8dd51510d4af",
       "created": "2026-08-04T10:09:20.802223Z",
       "modified": "2026-08-04T10:09:20.802223Z",
       "pattern": "(?i).*\\\\Background\\.exe.*\\\\RemoteLibUpdater\\.exe.*",
@@ -1048,7 +1048,7 @@
     {
       "type": "malware",
       "spec_version": "2.1",
-      "id": "malware--e01070bd-0458-4e83-86f8-9209a2913c9f",
+      "id": "malware--ca6130f8-1773-4ebe-b9b9-c76105eaa673",
       "created": "2026-08-03T17:08:53.241124Z",
       "modified": "2026-09-09T10:41:58.155Z",
       "name": "VBS Dropper",
@@ -1070,7 +1070,7 @@
     {
       "type": "malware",
       "spec_version": "2.1",
-      "id": "malware--519c9cec-b93b-41c6-ae67-883f01b384bd",
+      "id": "malware--e02e6686-2e63-409e-85f7-f81da3cbec9e",
       "created": "2026-08-03T17:08:53.241124Z",
       "modified": "2026-09-09T11:41:58.155Z",
       "name": "LUNCHPOKE",
@@ -1087,7 +1087,7 @@
     {
       "type": "malware",
       "spec_version": "2.1",
-      "id": "malware--6d4d1b66-4ca4-4306-b0cc-6d3262165f96",
+      "id": "malware--2987439c-9bc5-48f3-af1d-a9d666744634",
       "created": "2026-08-03T17:08:53.241124Z",
       "modified": "2026-08-04T10:09:20.811005Z",
       "name": "BURNYBEAR",
@@ -1108,7 +1108,7 @@
     {
       "type": "malware",
       "spec_version": "2.1",
-      "id": "malware--25b1333e-af03-4420-9581-1992f42f89ed",
+      "id": "malware--3cc2d632-7436-4d26-8d9f-18cabf3f5c30",
       "created": "2026-08-03T17:08:53.241124Z",
       "modified": "2026-08-04T10:09:20.811005Z",
       "name": "MATCHBOIL.V2",
@@ -1129,21 +1129,21 @@
     {
       "type": "note",
       "spec_version": "2.1",
-      "id": "note--49f23283-b860-4de4-90c4-c7e84c94bd00",
-      "created_by_ref": "identity--ffe4dfb5-873c-47a0-a59b-4bce58ec1a60",
+      "id": "note--4cae1441-c567-4cb0-a126-68882f7131c8",
+      "created_by_ref": "identity--e96e82b2-cdde-5d8e-96c0-d25ae79ecd6a",
       "created": "2026-09-08T16:26:55.562Z",
       "modified": "2026-09-11T11:02:11.928Z",
       "abstract": "Confidenza media riguardo la data della prima osservazione",
       "content": "L'articolo parla di \"metà estate\", ma non specifica una data in particolare",
       "object_refs": [
-        "campaign--81bc90f3-2b6b-431d-98a2-cb70f30724eb"
+        "campaign--04090d0b-329d-4e87-b657-2539f895c2c6"
       ]
     },
     {
       "type": "note",
       "spec_version": "2.1",
-      "id": "note--33e099b1-8eb3-4048-959e-b9ca181add37",
-      "created_by_ref": "identity--ffe4dfb5-873c-47a0-a59b-4bce58ec1a60",
+      "id": "note--e93a02a5-4d23-421d-8595-6d300c471ee0",
+      "created_by_ref": "identity--e96e82b2-cdde-5d8e-96c0-d25ae79ecd6a",
       "created": "2026-09-11T11:02:11.928Z",
       "modified": "2026-09-11T11:02:11.928Z",
       "abstract": "Riflessione sul doppio richiamo a winrar nel corso della catena di attacco",
@@ -1151,16 +1151,16 @@
       "object_refs": [
         "file--dfa2a68c-69b2-5ae7-aa3e-03bc11a865de",
         "file--15b71ba8-8bfd-5035-9c91-896e42d0e788",
-        "tool--360c0b98-c82b-487b-bc07-41c32809e778",
-        "malware--e01070bd-0458-4e83-86f8-9209a2913c9f",
-        "malware--25b1333e-af03-4420-9581-1992f42f89ed"
+        "tool--375cabff-65de-4a37-ae8c-30fbaeaf171c",
+        "malware--ca6130f8-1773-4ebe-b9b9-c76105eaa673",
+        "malware--3cc2d632-7436-4d26-8d9f-18cabf3f5c30"
       ]
     },
     {
       "type": "report",
       "spec_version": "2.1",
       "id": "report--140e5882-d0d5-457e-9c82-909fad8d3bb9",
-      "created_by_ref": "identity--3c97bd75-4c67-4f36-bf36-3c6ecf97fbb3",
+      "created_by_ref": "identity--24673cb3-c9fb-45cf-95f8-6f7419f1812b",
       "created": "2026-08-03T17:08:53.241124Z",
       "modified": "2026-08-04T10:09:20.811005Z",
       "name": "Hackers Abuse Notepad++ Plugins to Compromise Your System Silently",
@@ -1171,22 +1171,22 @@
       ],
       "published": "2026-07-23T09:07:01.424Z",
       "object_refs": [
-        "intrusion-set--0b67b205-8f8e-47bb-94bf-26cb15f3ba23",
-        "malware--e01070bd-0458-4e83-86f8-9209a2913c9f",
-        "malware--519c9cec-b93b-41c6-ae67-883f01b384bd",
-        "malware--6d4d1b66-4ca4-4306-b0cc-6d3262165f96",
-        "malware--25b1333e-af03-4420-9581-1992f42f89ed",
-        "attack-pattern--ac328341-a1f9-4887-bc7d-2ec86fc76e2d",
-        "attack-pattern--98a0aa04-acfd-4cd5-811c-26483ec4b442",
-        "attack-pattern--b435064e-a37a-454c-bccd-7f69203d4187",
-        "attack-pattern--18f5071a-17bd-4759-8f77-a5898e3ddb67",
-        "attack-pattern--32478a38-47ea-4c31-b7bf-004e70c7781d",
-        "attack-pattern--2b0121f6-94e6-46c9-aa3a-58ad1223e710",
-        "attack-pattern--eb311521-8fd7-4d9f-99dd-24813e085a56",
-        "attack-pattern--adc48472-3304-412d-9a88-699708f963de",
-        "attack-pattern--7c03af72-acbf-4768-b8b7-dd1d2721322c",
-        "campaign--81bc90f3-2b6b-431d-98a2-cb70f30724eb",
-        "tool--360c0b98-c82b-487b-bc07-41c32809e778",
+        "intrusion-set--7d5f5917-641d-4b94-9694-c49f78985764",
+        "malware--ca6130f8-1773-4ebe-b9b9-c76105eaa673",
+        "malware--e02e6686-2e63-409e-85f7-f81da3cbec9e",
+        "malware--2987439c-9bc5-48f3-af1d-a9d666744634",
+        "malware--3cc2d632-7436-4d26-8d9f-18cabf3f5c30",
+        "attack-pattern--aa8e337a-b7d5-426d-85f9-98b6614ed681",
+        "attack-pattern--e10c1fbd-adb4-4b11-9ec2-9ef3b3f00efe",
+        "attack-pattern--d1b8cf16-8f52-49cd-b82f-b52c7960abd2",
+        "attack-pattern--0c00f039-8843-4c65-a7e3-4dd1e1765650",
+        "attack-pattern--719777c8-ab87-4803-b3dd-5771c156c3fc",
+        "attack-pattern--a17e8cb5-be31-42b2-82de-10ab6a8e91db",
+        "attack-pattern--8985752a-db3a-430c-b33d-ccf276735166",
+        "attack-pattern--07b1e2ba-d8de-47ec-976c-33afc87f5e66",
+        "attack-pattern--614df31c-e2e8-4261-9771-0239b0d8b915",
+        "campaign--04090d0b-329d-4e87-b657-2539f895c2c6",
+        "tool--375cabff-65de-4a37-ae8c-30fbaeaf171c",
         "identity--4e29f9f4-5e46-4b9f-b450-5e9f91867f1f",
         "file--80e5302a-a12c-5f35-9838-09892b4e0b99",
         "file--98a9e61f-1557-5ac2-bb59-97978c9af340",
@@ -1202,7 +1202,7 @@
     {
       "type": "report",
       "spec_version": "2.1",
-      "id": "report--3d9ff17d-1784-4b25-83fd-7a407c5f9db4",
+      "id": "report--0cc0dc1e-9909-4dc5-bc30-423716c8cf35",
       "created_by_ref": "identity--4e29f9f4-5e46-4b9f-b450-5e9f91867f1f",
       "created": "2026-08-03T17:08:53.241124Z",
       "modified": "2026-09-11T15:45:14.426Z",
@@ -1214,7 +1214,7 @@
       ],
       "published": "2026-07-21T09:07:01.424Z",
       "object_refs": [
-        "intrusion-set--0b67b205-8f8e-47bb-94bf-26cb15f3ba23",
+        "intrusion-set--7d5f5917-641d-4b94-9694-c49f78985764",
         "directory--23bf6bc2-e16f-559f-ac3c-afba4ba2acd5",
         "directory--684e4a98-0f33-5e71-9f3f-1b557e4b5c3f",
         "directory--99efb676-3c0e-59cf-a437-b1672959f8e4",
@@ -1227,24 +1227,24 @@
         "directory--03d01600-1352-5704-8a3d-a6cbed82ee73",
         "directory--4951bf7b-8208-598d-a019-c001d494174d",
         "directory--cd2ef70d-329a-5527-95a0-ea858afa43ea",
-        "process--9cc68c3a-f823-4faf-b03a-644ab8fa9ff1",
+        "process--8d2eb09b-71f8-4cb8-a240-6099c3f88798",
         "email-message--6ccbe8f6-4c32-5615-be69-f7ea9fe1fd98",
-        "campaign--81bc90f3-2b6b-431d-98a2-cb70f30724eb",
-        "attack-pattern--ac328341-a1f9-4887-bc7d-2ec86fc76e2d",
-        "attack-pattern--98a0aa04-acfd-4cd5-811c-26483ec4b442",
-        "attack-pattern--b435064e-a37a-454c-bccd-7f69203d4187",
-        "attack-pattern--18f5071a-17bd-4759-8f77-a5898e3ddb67",
-        "attack-pattern--32478a38-47ea-4c31-b7bf-004e70c7781d",
-        "attack-pattern--2b0121f6-94e6-46c9-aa3a-58ad1223e710",
-        "attack-pattern--eb311521-8fd7-4d9f-99dd-24813e085a56",
-        "attack-pattern--adc48472-3304-412d-9a88-699708f963de",
-        "attack-pattern--7c03af72-acbf-4768-b8b7-dd1d2721322c",
-        "attack-pattern--7e8dbd02-adcb-4357-a94a-c581d5b1d3f8",
-        "malware--e01070bd-0458-4e83-86f8-9209a2913c9f",
-        "malware--519c9cec-b93b-41c6-ae67-883f01b384bd",
-        "malware--6d4d1b66-4ca4-4306-b0cc-6d3262165f96",
-        "malware--25b1333e-af03-4420-9581-1992f42f89ed",
-        "tool--360c0b98-c82b-487b-bc07-41c32809e778",
+        "campaign--04090d0b-329d-4e87-b657-2539f895c2c6",
+        "attack-pattern--aa8e337a-b7d5-426d-85f9-98b6614ed681",
+        "attack-pattern--e10c1fbd-adb4-4b11-9ec2-9ef3b3f00efe",
+        "attack-pattern--d1b8cf16-8f52-49cd-b82f-b52c7960abd2",
+        "attack-pattern--0c00f039-8843-4c65-a7e3-4dd1e1765650",
+        "attack-pattern--719777c8-ab87-4803-b3dd-5771c156c3fc",
+        "attack-pattern--a17e8cb5-be31-42b2-82de-10ab6a8e91db",
+        "attack-pattern--8985752a-db3a-430c-b33d-ccf276735166",
+        "attack-pattern--07b1e2ba-d8de-47ec-976c-33afc87f5e66",
+        "attack-pattern--614df31c-e2e8-4261-9771-0239b0d8b915",
+        "attack-pattern--93aa8029-5a9c-48ee-8e4a-c9b9d1459e35",
+        "malware--ca6130f8-1773-4ebe-b9b9-c76105eaa673",
+        "malware--e02e6686-2e63-409e-85f7-f81da3cbec9e",
+        "malware--2987439c-9bc5-48f3-af1d-a9d666744634",
+        "malware--3cc2d632-7436-4d26-8d9f-18cabf3f5c30",
+        "tool--375cabff-65de-4a37-ae8c-30fbaeaf171c",
         "email-addr--d8a665e8-2440-52cd-9e6b-f543428f9527",
         "domain-name--868ba14b-0579-5044-b155-1a5dc3b3d39c",
         "domain-name--2db03d15-67b6-552b-9da6-a43329a12ea4",
@@ -1307,8 +1307,8 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "attributed-to",
-      "source_ref": "campaign--81bc90f3-2b6b-431d-98a2-cb70f30724eb",
-      "target_ref": "intrusion-set--0b67b205-8f8e-47bb-94bf-26cb15f3ba23"
+      "source_ref": "campaign--04090d0b-329d-4e87-b657-2539f895c2c6",
+      "target_ref": "intrusion-set--7d5f5917-641d-4b94-9694-c49f78985764"
     },
     {
       "type": "relationship",
@@ -1317,8 +1317,8 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "uses",
-      "source_ref": "campaign--81bc90f3-2b6b-431d-98a2-cb70f30724eb",
-      "target_ref": "attack-pattern--ac328341-a1f9-4887-bc7d-2ec86fc76e2d"
+      "source_ref": "campaign--04090d0b-329d-4e87-b657-2539f895c2c6",
+      "target_ref": "attack-pattern--aa8e337a-b7d5-426d-85f9-98b6614ed681"
     },
     {
       "type": "relationship",
@@ -1327,8 +1327,8 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "uses",
-      "source_ref": "campaign--81bc90f3-2b6b-431d-98a2-cb70f30724eb",
-      "target_ref": "attack-pattern--98a0aa04-acfd-4cd5-811c-26483ec4b442"
+      "source_ref": "campaign--04090d0b-329d-4e87-b657-2539f895c2c6",
+      "target_ref": "attack-pattern--e10c1fbd-adb4-4b11-9ec2-9ef3b3f00efe"
     },
     {
       "type": "relationship",
@@ -1337,8 +1337,8 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "uses",
-      "source_ref": "campaign--81bc90f3-2b6b-431d-98a2-cb70f30724eb",
-      "target_ref": "attack-pattern--b435064e-a37a-454c-bccd-7f69203d4187"
+      "source_ref": "campaign--04090d0b-329d-4e87-b657-2539f895c2c6",
+      "target_ref": "attack-pattern--d1b8cf16-8f52-49cd-b82f-b52c7960abd2"
     },
     {
       "type": "relationship",
@@ -1347,8 +1347,8 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "uses",
-      "source_ref": "campaign--81bc90f3-2b6b-431d-98a2-cb70f30724eb",
-      "target_ref": "attack-pattern--18f5071a-17bd-4759-8f77-a5898e3ddb67"
+      "source_ref": "campaign--04090d0b-329d-4e87-b657-2539f895c2c6",
+      "target_ref": "attack-pattern--0c00f039-8843-4c65-a7e3-4dd1e1765650"
     },
     {
       "type": "relationship",
@@ -1357,8 +1357,8 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "uses",
-      "source_ref": "campaign--81bc90f3-2b6b-431d-98a2-cb70f30724eb",
-      "target_ref": "attack-pattern--32478a38-47ea-4c31-b7bf-004e70c7781d"
+      "source_ref": "campaign--04090d0b-329d-4e87-b657-2539f895c2c6",
+      "target_ref": "attack-pattern--719777c8-ab87-4803-b3dd-5771c156c3fc"
     },
     {
       "type": "relationship",
@@ -1367,8 +1367,8 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "uses",
-      "source_ref": "campaign--81bc90f3-2b6b-431d-98a2-cb70f30724eb",
-      "target_ref": "attack-pattern--2b0121f6-94e6-46c9-aa3a-58ad1223e710"
+      "source_ref": "campaign--04090d0b-329d-4e87-b657-2539f895c2c6",
+      "target_ref": "attack-pattern--a17e8cb5-be31-42b2-82de-10ab6a8e91db"
     },
     {
       "type": "relationship",
@@ -1377,8 +1377,8 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "uses",
-      "source_ref": "campaign--81bc90f3-2b6b-431d-98a2-cb70f30724eb",
-      "target_ref": "attack-pattern--eb311521-8fd7-4d9f-99dd-24813e085a56"
+      "source_ref": "campaign--04090d0b-329d-4e87-b657-2539f895c2c6",
+      "target_ref": "attack-pattern--8985752a-db3a-430c-b33d-ccf276735166"
     },
     {
       "type": "relationship",
@@ -1387,8 +1387,8 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "uses",
-      "source_ref": "campaign--81bc90f3-2b6b-431d-98a2-cb70f30724eb",
-      "target_ref": "attack-pattern--adc48472-3304-412d-9a88-699708f963de"
+      "source_ref": "campaign--04090d0b-329d-4e87-b657-2539f895c2c6",
+      "target_ref": "attack-pattern--07b1e2ba-d8de-47ec-976c-33afc87f5e66"
     },
     {
       "type": "relationship",
@@ -1397,8 +1397,8 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "uses",
-      "source_ref": "campaign--81bc90f3-2b6b-431d-98a2-cb70f30724eb",
-      "target_ref": "attack-pattern--7c03af72-acbf-4768-b8b7-dd1d2721322c"
+      "source_ref": "campaign--04090d0b-329d-4e87-b657-2539f895c2c6",
+      "target_ref": "attack-pattern--614df31c-e2e8-4261-9771-0239b0d8b915"
     },
     {
       "type": "relationship",
@@ -1408,36 +1408,36 @@
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "discovered",
       "source_ref": "identity--4e29f9f4-5e46-4b9f-b450-5e9f91867f1f",
-      "target_ref": "campaign--81bc90f3-2b6b-431d-98a2-cb70f30724eb"
+      "target_ref": "campaign--04090d0b-329d-4e87-b657-2539f895c2c6"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--40da3370-6e3e-4e52-b6be-0710f5112174",
+      "id": "relationship--2c4abbd1-8958-4e87-a141-14df01f50ddb",
       "created": "2026-09-08T17:01:09.172Z",
       "modified": "2026-09-08T17:01:09.172Z",
       "relationship_type": "related-to",
-      "source_ref": "attack-pattern--ac328341-a1f9-4887-bc7d-2ec86fc76e2d",
+      "source_ref": "attack-pattern--aa8e337a-b7d5-426d-85f9-98b6614ed681",
       "target_ref": "email-message--6ccbe8f6-4c32-5615-be69-f7ea9fe1fd98"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--7e5b57cd-ff20-48c3-b29f-c9f8fc4a0100",
+      "id": "relationship--c763cf2c-1c86-4599-8936-c7a8bad3f467",
       "created": "2026-09-09T10:35:58.155Z",
       "modified": "2026-09-09T10:35:58.155Z",
       "relationship_type": "related-to",
-      "source_ref": "attack-pattern--98a0aa04-acfd-4cd5-811c-26483ec4b442",
+      "source_ref": "attack-pattern--e10c1fbd-adb4-4b11-9ec2-9ef3b3f00efe",
       "target_ref": "file--80e5302a-a12c-5f35-9838-09892b4e0b99"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--97305a2e-ac27-416e-99ed-e19b41d7ca9f",
+      "id": "relationship--b20abacc-305f-483c-aebc-d187052ab4e9",
       "created": "2026-09-09T10:38:58.155Z",
       "modified": "2026-09-09T10:38:58.155Z",
       "relationship_type": "related-to",
-      "source_ref": "attack-pattern--b435064e-a37a-454c-bccd-7f69203d4187",
+      "source_ref": "attack-pattern--d1b8cf16-8f52-49cd-b82f-b52c7960abd2",
       "target_ref": "file--80e5302a-a12c-5f35-9838-09892b4e0b99"
     },
     {
@@ -1447,8 +1447,8 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "uses",
-      "source_ref": "campaign--81bc90f3-2b6b-431d-98a2-cb70f30724eb",
-      "target_ref": "malware--e01070bd-0458-4e83-86f8-9209a2913c9f"
+      "source_ref": "campaign--04090d0b-329d-4e87-b657-2539f895c2c6",
+      "target_ref": "malware--ca6130f8-1773-4ebe-b9b9-c76105eaa673"
     },
     {
       "type": "relationship",
@@ -1457,43 +1457,43 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "uses",
-      "source_ref": "malware--e01070bd-0458-4e83-86f8-9209a2913c9f",
-      "target_ref": "attack-pattern--18f5071a-17bd-4759-8f77-a5898e3ddb67"
+      "source_ref": "malware--ca6130f8-1773-4ebe-b9b9-c76105eaa673",
+      "target_ref": "attack-pattern--0c00f039-8843-4c65-a7e3-4dd1e1765650"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--c2385b89-7527-4d4e-b51a-4f8f96a7ae64",
+      "id": "relationship--e6a219bc-a38b-4269-99ce-3af520fc8ce8",
       "created": "2026-09-09T10:41:58.155Z",
       "modified": "2026-09-09T10:41:58.155Z",
       "relationship_type": "creates",
-      "source_ref": "malware--e01070bd-0458-4e83-86f8-9209a2913c9f",
+      "source_ref": "malware--ca6130f8-1773-4ebe-b9b9-c76105eaa673",
       "target_ref": "directory--684e4a98-0f33-5e71-9f3f-1b557e4b5c3f"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--22cd44b6-6a4c-454b-aa7f-ae76355517af",
+      "id": "relationship--1584328a-9c00-42ab-b657-2c1fb72e25aa",
       "created": "2026-09-09T10:41:58.155Z",
       "modified": "2026-09-09T10:41:58.155Z",
       "relationship_type": "communicates-with",
-      "source_ref": "malware--e01070bd-0458-4e83-86f8-9209a2913c9f",
+      "source_ref": "malware--ca6130f8-1773-4ebe-b9b9-c76105eaa673",
       "target_ref": "url--9da1a306-bc08-51e4-8de9-5f7d8de98c3e"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--bd352866-14d2-465a-8295-68cbb37cdec5",
+      "id": "relationship--95bb89be-a104-41a6-8f7f-d6e690d9784f",
       "created": "2026-09-09T10:41:58.155Z",
       "modified": "2026-09-09T10:41:58.155Z",
       "relationship_type": "downloads",
-      "source_ref": "malware--e01070bd-0458-4e83-86f8-9209a2913c9f",
+      "source_ref": "malware--ca6130f8-1773-4ebe-b9b9-c76105eaa673",
       "target_ref": "file--b8d5be69-921c-53c0-b1d1-4c2db023a255"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--d403c6f3-7d56-4ccc-8a51-081bdb77427a",
+      "id": "relationship--5ddb531e-a5ce-4f7c-98b8-a57bbd5a628b",
       "created": "2026-09-09T10:41:58.155Z",
       "modified": "2026-09-09T10:41:58.155Z",
       "relationship_type": "related-to",
@@ -1503,37 +1503,37 @@
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--a980657c-b9d9-4ea6-b34f-33d982357ea0",
+      "id": "relationship--7b9d00bc-e962-4497-a046-add15a618b23",
       "created": "2026-09-09T10:41:58.155Z",
       "modified": "2026-09-09T10:41:58.155Z",
       "relationship_type": "communicates-with",
-      "source_ref": "malware--e01070bd-0458-4e83-86f8-9209a2913c9f",
+      "source_ref": "malware--ca6130f8-1773-4ebe-b9b9-c76105eaa673",
       "target_ref": "url--58e4850c-c279-5bdf-ac3d-9f307ce9573f"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--75c01bf3-f216-4e79-ac16-cee6cc75e8f8",
+      "id": "relationship--ab44cc29-2af0-4ebe-94ee-e91322d8a3bf",
       "created": "2026-09-09T10:41:58.155Z",
       "modified": "2026-09-09T10:41:58.155Z",
       "relationship_type": "downloads",
-      "source_ref": "malware--e01070bd-0458-4e83-86f8-9209a2913c9f",
+      "source_ref": "malware--ca6130f8-1773-4ebe-b9b9-c76105eaa673",
       "target_ref": "file--95956e6e-9b5c-5be6-badf-985c8e0739e1"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--065d725a-6170-4ab4-9f1d-a6d1ba2ea667",
+      "id": "relationship--a0a3866f-7ffd-4e51-aff6-c227a391db27",
       "created": "2026-09-09T10:41:58.155Z",
       "modified": "2026-09-09T10:41:58.155Z",
       "relationship_type": "creates",
-      "source_ref": "malware--e01070bd-0458-4e83-86f8-9209a2913c9f",
+      "source_ref": "malware--ca6130f8-1773-4ebe-b9b9-c76105eaa673",
       "target_ref": "directory--23bf6bc2-e16f-559f-ac3c-afba4ba2acd5"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--d0628731-9d43-48f7-bfa5-c40f44bc6723",
+      "id": "relationship--1c85161d-0137-4fdd-8860-47aaa4ca4a46",
       "created": "2026-09-09T10:41:58.155Z",
       "modified": "2026-09-09T10:41:58.155Z",
       "relationship_type": "related-to",
@@ -1543,81 +1543,81 @@
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--da7f17ee-f864-4332-9716-870eaeb8e7c2",
+      "id": "relationship--073f97b8-77b8-4c40-be42-4b0ee45bda1e",
       "created": "2026-09-09T10:41:58.155Z",
       "modified": "2026-09-09T10:41:58.155Z",
       "relationship_type": "drops",
-      "source_ref": "malware--e01070bd-0458-4e83-86f8-9209a2913c9f",
+      "source_ref": "malware--ca6130f8-1773-4ebe-b9b9-c76105eaa673",
       "target_ref": "file--a4d8e44b-4496-508d-9662-87bca98f1dbf"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--4150b139-58a2-4e61-b320-e8195241ac83",
+      "id": "relationship--16f8bf8e-93df-4337-9857-ac4fad45fa40",
       "created": "2026-09-09T17:41:58.155Z",
       "modified": "2026-09-09T17:41:58.155Z",
       "relationship_type": "drops",
-      "source_ref": "malware--e01070bd-0458-4e83-86f8-9209a2913c9f",
-      "target_ref": "malware--519c9cec-b93b-41c6-ae67-883f01b384bd"
+      "source_ref": "malware--ca6130f8-1773-4ebe-b9b9-c76105eaa673",
+      "target_ref": "malware--e02e6686-2e63-409e-85f7-f81da3cbec9e"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--81c0bf7d-899e-4086-abd5-d6d02d46d5b1",
+      "id": "relationship--93b811ef-48f4-486c-a820-1bd265a0f847",
       "created": "2026-09-09T17:41:58.155Z",
       "modified": "2026-09-09T17:41:58.155Z",
       "relationship_type": "drops",
-      "source_ref": "malware--e01070bd-0458-4e83-86f8-9209a2913c9f",
+      "source_ref": "malware--ca6130f8-1773-4ebe-b9b9-c76105eaa673",
       "target_ref": "file--cc0be47c-4353-575b-9bb7-961036c6b39e"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--bea25573-7d78-4681-9c88-a5982994bae1",
+      "id": "relationship--90648e33-4832-4121-bc8f-ad354d901d25",
       "created": "2026-09-09T17:41:58.155Z",
       "modified": "2026-09-09T17:41:58.155Z",
       "relationship_type": "drops",
-      "source_ref": "malware--e01070bd-0458-4e83-86f8-9209a2913c9f",
+      "source_ref": "malware--ca6130f8-1773-4ebe-b9b9-c76105eaa673",
       "target_ref": "file--dfa2a68c-69b2-5ae7-aa3e-03bc11a865de"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--470f1221-aea4-4e04-b29f-9580800673e2",
+      "id": "relationship--66bc0427-7dc2-4cb0-b378-09f2458cbedc",
       "created": "2026-09-11T09:47:19.671Z",
       "modified": "2026-09-11T09:47:19.671Z",
       "relationship_type": "uses",
-      "source_ref": "malware--e01070bd-0458-4e83-86f8-9209a2913c9f",
-      "target_ref": "attack-pattern--32478a38-47ea-4c31-b7bf-004e70c7781d"
+      "source_ref": "malware--ca6130f8-1773-4ebe-b9b9-c76105eaa673",
+      "target_ref": "attack-pattern--719777c8-ab87-4803-b3dd-5771c156c3fc"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--016b9da7-4ffe-4c71-ad8b-7381e0ed88b1",
+      "id": "relationship--38c2cfad-fd98-44ac-91a5-1ee3ef57cc7a",
       "created": "2026-09-11T09:47:19.671Z",
       "modified": "2026-09-11T09:47:19.671Z",
       "relationship_type": "related-to",
-      "source_ref": "attack-pattern--32478a38-47ea-4c31-b7bf-004e70c7781d",
-      "target_ref": "malware--519c9cec-b93b-41c6-ae67-883f01b384bd"
+      "source_ref": "attack-pattern--719777c8-ab87-4803-b3dd-5771c156c3fc",
+      "target_ref": "malware--e02e6686-2e63-409e-85f7-f81da3cbec9e"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--8271dab2-aa4f-4d0c-bce6-e379caa1d53f",
+      "id": "relationship--b82a772d-c72a-4e5f-8e46-e8b9dfa5edfc",
       "created": "2026-09-11T09:47:19.671Z",
       "modified": "2026-09-11T09:47:19.671Z",
       "relationship_type": "related-to",
-      "source_ref": "attack-pattern--32478a38-47ea-4c31-b7bf-004e70c7781d",
+      "source_ref": "attack-pattern--719777c8-ab87-4803-b3dd-5771c156c3fc",
       "target_ref": "file--a4d8e44b-4496-508d-9662-87bca98f1dbf"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--ff307491-722e-4732-b267-2edd561aa0cb",
+      "id": "relationship--a320c280-88ff-4735-bc73-a8a3137813aa",
       "created": "2026-09-11T09:47:19.671Z",
       "modified": "2026-09-11T09:47:19.671Z",
       "relationship_type": "uses",
-      "source_ref": "malware--519c9cec-b93b-41c6-ae67-883f01b384bd",
+      "source_ref": "malware--e02e6686-2e63-409e-85f7-f81da3cbec9e",
       "target_ref": "directory--9906a7f2-633b-51c5-8c97-4f7a109fe5ed"
     },
     {
@@ -1627,37 +1627,37 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "uses",
-      "source_ref": "malware--519c9cec-b93b-41c6-ae67-883f01b384bd",
-      "target_ref": "attack-pattern--2b0121f6-94e6-46c9-aa3a-58ad1223e710"
+      "source_ref": "malware--e02e6686-2e63-409e-85f7-f81da3cbec9e",
+      "target_ref": "attack-pattern--a17e8cb5-be31-42b2-82de-10ab6a8e91db"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--7a53fb94-0058-41a2-995e-bbd070572315",
+      "id": "relationship--7ced010c-c48e-4c5d-90f4-9ab7d4e0f085",
       "created": "2026-09-11T09:47:19.671Z",
       "modified": "2026-09-11T09:47:19.671Z",
       "relationship_type": "related-to",
-      "source_ref": "attack-pattern--2b0121f6-94e6-46c9-aa3a-58ad1223e710",
+      "source_ref": "attack-pattern--a17e8cb5-be31-42b2-82de-10ab6a8e91db",
       "target_ref": "file--637f418b-4661-52cf-884b-e0e1c8a33148"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--b8753f64-eaf3-41a6-86a6-c52b01c7759b",
+      "id": "relationship--b8c28a95-3e5d-4acd-a505-ab5215e5876f",
       "created": "2026-09-11T09:47:19.671Z",
       "modified": "2026-09-11T09:47:19.671Z",
       "relationship_type": "related-to",
-      "source_ref": "attack-pattern--2b0121f6-94e6-46c9-aa3a-58ad1223e710",
+      "source_ref": "attack-pattern--a17e8cb5-be31-42b2-82de-10ab6a8e91db",
       "target_ref": "file--c33e7ae0-21ee-53fa-93a7-03384144529e"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--e832c911-f37d-421c-823f-9ff3460bc190",
+      "id": "relationship--3b116408-d90b-4be8-a468-47d478b9892e",
       "created": "2026-09-11T09:47:19.671Z",
       "modified": "2026-09-11T09:47:19.671Z",
       "relationship_type": "creates",
-      "source_ref": "malware--519c9cec-b93b-41c6-ae67-883f01b384bd",
+      "source_ref": "malware--e02e6686-2e63-409e-85f7-f81da3cbec9e",
       "target_ref": "directory--80af4813-ab3b-57ab-b369-9a05fcf1df52"
     },
     {
@@ -1667,18 +1667,18 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "uses",
-      "source_ref": "malware--519c9cec-b93b-41c6-ae67-883f01b384bd",
-      "target_ref": "attack-pattern--eb311521-8fd7-4d9f-99dd-24813e085a56"
+      "source_ref": "malware--e02e6686-2e63-409e-85f7-f81da3cbec9e",
+      "target_ref": "attack-pattern--8985752a-db3a-430c-b33d-ccf276735166"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--265b061c-7aea-482d-b339-2529fe264c17",
+      "id": "relationship--268650de-f2f0-4a76-af0c-909bc896042f",
       "created": "2026-09-11T10:23:14.998Z",
       "modified": "2026-09-11T10:23:14.998Z",
       "relationship_type": "related-to",
-      "source_ref": "attack-pattern--eb311521-8fd7-4d9f-99dd-24813e085a56",
-      "target_ref": "process--9cc68c3a-f823-4faf-b03a-644ab8fa9ff1"
+      "source_ref": "attack-pattern--8985752a-db3a-430c-b33d-ccf276735166",
+      "target_ref": "process--8d2eb09b-71f8-4cb8-a240-6099c3f88798"
     },
     {
       "type": "relationship",
@@ -1687,8 +1687,8 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-09-11T10:23:14.998Z",
       "relationship_type": "loads",
-      "source_ref": "malware--6d4d1b66-4ca4-4306-b0cc-6d3262165f96",
-      "target_ref": "malware--25b1333e-af03-4420-9581-1992f42f89ed"
+      "source_ref": "malware--2987439c-9bc5-48f3-af1d-a9d666744634",
+      "target_ref": "malware--3cc2d632-7436-4d26-8d9f-18cabf3f5c30"
     },
     {
       "type": "relationship",
@@ -1697,7 +1697,7 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "communicates-with",
-      "source_ref": "malware--25b1333e-af03-4420-9581-1992f42f89ed",
+      "source_ref": "malware--3cc2d632-7436-4d26-8d9f-18cabf3f5c30",
       "target_ref": "url--e7cdb86b-bacd-529c-8ed5-71720ff27046"
     },
     {
@@ -1707,7 +1707,7 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-09-11T11:02:11.928Z",
       "relationship_type": "downloads",
-      "source_ref": "malware--25b1333e-af03-4420-9581-1992f42f89ed",
+      "source_ref": "malware--3cc2d632-7436-4d26-8d9f-18cabf3f5c30",
       "target_ref": "file--15b71ba8-8bfd-5035-9c91-896e42d0e788"
     },
     {
@@ -1717,17 +1717,17 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-09-11T11:02:11.928Z",
       "relationship_type": "related-to",
-      "source_ref": "tool--360c0b98-c82b-487b-bc07-41c32809e778",
+      "source_ref": "tool--375cabff-65de-4a37-ae8c-30fbaeaf171c",
       "target_ref": "file--dfa2a68c-69b2-5ae7-aa3e-03bc11a865de"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--27852496-bd1c-4fff-b4e9-1c673cf3f663",
+      "id": "relationship--dcdc40ec-8918-40e5-b49f-4cf97943861a",
       "created": "2026-09-11T11:02:11.928Z",
       "modified": "2026-09-11T11:02:11.928Z",
       "relationship_type": "related-to",
-      "source_ref": "tool--360c0b98-c82b-487b-bc07-41c32809e778",
+      "source_ref": "tool--375cabff-65de-4a37-ae8c-30fbaeaf171c",
       "target_ref": "file--15b71ba8-8bfd-5035-9c91-896e42d0e788"
     },
     {
@@ -1737,33 +1737,33 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "uses",
-      "source_ref": "malware--25b1333e-af03-4420-9581-1992f42f89ed",
-      "target_ref": "attack-pattern--adc48472-3304-412d-9a88-699708f963de"
+      "source_ref": "malware--3cc2d632-7436-4d26-8d9f-18cabf3f5c30",
+      "target_ref": "attack-pattern--07b1e2ba-d8de-47ec-976c-33afc87f5e66"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--df8b92a7-87f3-48b6-968d-3fb4acc11d87",
+      "id": "relationship--9a2f2267-fb4f-4e3c-8646-59c321675970",
       "created": "2026-09-11T15:15:14.426Z",
       "modified": "2026-09-11T15:15:14.426Z",
       "relationship_type": "uses",
-      "source_ref": "malware--25b1333e-af03-4420-9581-1992f42f89ed",
-      "target_ref": "attack-pattern--7c03af72-acbf-4768-b8b7-dd1d2721322c"
+      "source_ref": "malware--3cc2d632-7436-4d26-8d9f-18cabf3f5c30",
+      "target_ref": "attack-pattern--614df31c-e2e8-4261-9771-0239b0d8b915"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--4ea8f14d-d971-4c77-8592-983e6da50601",
+      "id": "relationship--1632804f-0f54-44e5-938b-5ee7454a326f",
       "created": "2026-09-11T15:15:14.426Z",
       "modified": "2026-09-11T15:15:14.426Z",
       "relationship_type": "uses",
-      "source_ref": "campaign--81bc90f3-2b6b-431d-98a2-cb70f30724eb",
-      "target_ref": "attack-pattern--7e8dbd02-adcb-4357-a94a-c581d5b1d3f8"
+      "source_ref": "campaign--04090d0b-329d-4e87-b657-2539f895c2c6",
+      "target_ref": "attack-pattern--93aa8029-5a9c-48ee-8e4a-c9b9d1459e35"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--02913adf-f5bb-484d-8636-c770038b84cd",
+      "id": "relationship--e7b0e168-a353-43b9-b1a5-b3a2f0ac1456",
       "created": "2026-09-11T15:45:14.426Z",
       "modified": "2026-09-11T15:45:14.426Z",
       "relationship_type": "related-to",
@@ -1773,7 +1773,7 @@
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--7844b88d-37f1-4107-a4bb-9b22d8ac1e79",
+      "id": "relationship--decf8ca4-5149-45de-9c01-6c1f968e9c64",
       "created": "2026-09-11T15:45:14.426Z",
       "modified": "2026-09-11T15:45:14.426Z",
       "relationship_type": "related-to",
@@ -1788,7 +1788,7 @@
       "modified": "2026-08-04T10:09:20.802223Z",
       "relationship_type": "related-to",
       "description": "Attribution based on visual evidence in CERT-UA report figures, not explicit in text",
-      "source_ref": "malware--25b1333e-af03-4420-9581-1992f42f89ed",
+      "source_ref": "malware--3cc2d632-7436-4d26-8d9f-18cabf3f5c30",
       "target_ref": "file--c199e11c-5d2b-507e-8340-597d07659413"
     },
     {
@@ -1799,7 +1799,7 @@
       "modified": "2026-08-04T10:09:20.802223Z",
       "relationship_type": "related-to",
       "description": "Attribution based on visual evidence in CERT-UA report figures, not explicit in text",
-      "source_ref": "malware--25b1333e-af03-4420-9581-1992f42f89ed",
+      "source_ref": "malware--3cc2d632-7436-4d26-8d9f-18cabf3f5c30",
       "target_ref": "file--2a516555-e078-5773-8193-5cd8f76c0617"
     },
     {
@@ -1810,7 +1810,7 @@
       "modified": "2026-08-04T10:09:20.802223Z",
       "relationship_type": "related-to",
       "description": "Attribution based on visual evidence in CERT-UA report figures, not explicit in text",
-      "source_ref": "malware--25b1333e-af03-4420-9581-1992f42f89ed",
+      "source_ref": "malware--3cc2d632-7436-4d26-8d9f-18cabf3f5c30",
       "target_ref": "file--cea4a181-de9a-5d9c-8da1-4705aa37a6bf"
     },
     {
@@ -1821,57 +1821,57 @@
       "modified": "2026-08-04T10:09:20.802223Z",
       "relationship_type": "related-to",
       "description": "Attribution based on visual evidence in CERT-UA report figures, not explicit in text",
-      "source_ref": "malware--25b1333e-af03-4420-9581-1992f42f89ed",
+      "source_ref": "malware--3cc2d632-7436-4d26-8d9f-18cabf3f5c30",
       "target_ref": "file--2ddffd44-b8dc-5981-8466-1556e1336852"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--b7ddf1e9-d98f-42a8-86d2-d44a2ffec6ef",
+      "id": "relationship--281e9464-cae5-4b60-aebd-2d52a4c36561",
       "created": "2026-09-11T16:14:11.458Z",
       "modified": "2026-09-11T16:14:11.458Z",
       "relationship_type": "related-to",
-      "source_ref": "attack-pattern--7e8dbd02-adcb-4357-a94a-c581d5b1d3f8",
+      "source_ref": "attack-pattern--93aa8029-5a9c-48ee-8e4a-c9b9d1459e35",
       "target_ref": "file--98a9e61f-1557-5ac2-bb59-97978c9af340"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--e5546ebd-560c-4d5a-b2e3-f02103c31bc5",
+      "id": "relationship--b9322eea-d218-481e-b625-7336d82e9cd7",
       "created": "2026-09-11T16:14:11.458Z",
       "modified": "2026-09-11T16:14:11.458Z",
       "relationship_type": "related-to",
-      "source_ref": "attack-pattern--7e8dbd02-adcb-4357-a94a-c581d5b1d3f8",
+      "source_ref": "attack-pattern--93aa8029-5a9c-48ee-8e4a-c9b9d1459e35",
       "target_ref": "file--b2a6336d-6f44-51a9-8435-76456bd64bf0"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--d9b9f470-05a3-401e-8511-66b1f1cabdba",
+      "id": "relationship--43d05054-866b-4db3-8bdd-02db0eddacd1",
       "created": "2026-09-11T16:14:11.458Z",
       "modified": "2026-09-11T16:14:11.458Z",
       "relationship_type": "related-to",
-      "source_ref": "attack-pattern--7e8dbd02-adcb-4357-a94a-c581d5b1d3f8",
+      "source_ref": "attack-pattern--93aa8029-5a9c-48ee-8e4a-c9b9d1459e35",
       "target_ref": "file--af3cb0a5-b2e8-5020-8ffe-c9b2be78846d"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--b556882f-a503-4ab9-ab2e-85191f088f94",
+      "id": "relationship--280c15d6-2329-41cd-811f-4bf5caf06957",
       "created": "2026-09-11T16:14:11.458Z",
       "modified": "2026-09-11T16:14:11.458Z",
       "relationship_type": "related-to",
-      "source_ref": "attack-pattern--7e8dbd02-adcb-4357-a94a-c581d5b1d3f8",
+      "source_ref": "attack-pattern--93aa8029-5a9c-48ee-8e4a-c9b9d1459e35",
       "target_ref": "file--2e3b49e9-7aa7-59b0-8183-e201ce488e86"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--c2e5503a-01ee-46d1-8850-e7a7dbcdf84f",
+      "id": "relationship--1746c142-bad0-41cc-af16-141a4c5f60eb",
       "created": "2026-09-11T16:14:11.458Z",
       "modified": "2026-09-11T16:14:11.458Z",
       "relationship_type": "related-to",
-      "source_ref": "attack-pattern--7e8dbd02-adcb-4357-a94a-c581d5b1d3f8",
+      "source_ref": "attack-pattern--93aa8029-5a9c-48ee-8e4a-c9b9d1459e35",
       "target_ref": "file--cc0be47c-4353-575b-9bb7-961036c6b39e"
     },
     {
@@ -1881,8 +1881,8 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "indicates",
-      "source_ref": "indicator--e6133959-726a-4adb-9ec0-f05d55fb876f",
-      "target_ref": "malware--e01070bd-0458-4e83-86f8-9209a2913c9f"
+      "source_ref": "indicator--ea318be6-89b6-4b3b-9318-954253069c80",
+      "target_ref": "malware--ca6130f8-1773-4ebe-b9b9-c76105eaa673"
     },
     {
       "type": "relationship",
@@ -1891,7 +1891,7 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "based-on",
-      "source_ref": "indicator--e6133959-726a-4adb-9ec0-f05d55fb876f",
+      "source_ref": "indicator--ea318be6-89b6-4b3b-9318-954253069c80",
       "target_ref": "file--80e5302a-a12c-5f35-9838-09892b4e0b99"
     },
     {
@@ -1901,7 +1901,7 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "based-on",
-      "source_ref": "indicator--e6133959-726a-4adb-9ec0-f05d55fb876f",
+      "source_ref": "indicator--ea318be6-89b6-4b3b-9318-954253069c80",
       "target_ref": "file--9ce91d28-7d4d-5330-bc20-f97f3a54d378"
     },
     {
@@ -1911,7 +1911,7 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "based-on",
-      "source_ref": "indicator--e6133959-726a-4adb-9ec0-f05d55fb876f",
+      "source_ref": "indicator--ea318be6-89b6-4b3b-9318-954253069c80",
       "target_ref": "file--c7762b27-7453-57ea-b872-f7bb4cefc392"
     },
     {
@@ -1921,8 +1921,8 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "indicates",
-      "source_ref": "indicator--3f4ff62d-2722-4598-8d24-f73bf22e1f4f",
-      "target_ref": "malware--519c9cec-b93b-41c6-ae67-883f01b384bd"
+      "source_ref": "indicator--d0380574-8478-44cf-ac99-3a4a073b17c0",
+      "target_ref": "malware--e02e6686-2e63-409e-85f7-f81da3cbec9e"
     },
     {
       "type": "relationship",
@@ -1931,7 +1931,7 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "based-on",
-      "source_ref": "indicator--3f4ff62d-2722-4598-8d24-f73bf22e1f4f",
+      "source_ref": "indicator--d0380574-8478-44cf-ac99-3a4a073b17c0",
       "target_ref": "file--72b598d6-ccf4-5f9f-a02e-0b74f1d47dd9"
     },
     {
@@ -1941,7 +1941,7 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "based-on",
-      "source_ref": "indicator--3f4ff62d-2722-4598-8d24-f73bf22e1f4f",
+      "source_ref": "indicator--d0380574-8478-44cf-ac99-3a4a073b17c0",
       "target_ref": "file--832b4434-8c80-5d3a-8464-a629cac96b77"
     },
     {
@@ -1951,8 +1951,8 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "indicates",
-      "source_ref": "indicator--61264512-e796-484d-9c02-a1eb16e0b419",
-      "target_ref": "malware--6d4d1b66-4ca4-4306-b0cc-6d3262165f96"
+      "source_ref": "indicator--e8207255-6ea5-48e0-8c14-1a163d512bd9",
+      "target_ref": "malware--2987439c-9bc5-48f3-af1d-a9d666744634"
     },
     {
       "type": "relationship",
@@ -1961,7 +1961,7 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "based-on",
-      "source_ref": "indicator--61264512-e796-484d-9c02-a1eb16e0b419",
+      "source_ref": "indicator--e8207255-6ea5-48e0-8c14-1a163d512bd9",
       "target_ref": "file--2e3b49e9-7aa7-59b0-8183-e201ce488e86"
     },
     {
@@ -1971,7 +1971,7 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "based-on",
-      "source_ref": "indicator--61264512-e796-484d-9c02-a1eb16e0b419",
+      "source_ref": "indicator--e8207255-6ea5-48e0-8c14-1a163d512bd9",
       "target_ref": "file--8ee2ca40-b7e5-5fb1-b2cf-58313b32ba9b"
     },
     {
@@ -1981,8 +1981,8 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "indicates",
-      "source_ref": "indicator--97bcdff6-c15a-4910-85c7-87c5358ca256",
-      "target_ref": "malware--25b1333e-af03-4420-9581-1992f42f89ed"
+      "source_ref": "indicator--72776ac5-3659-4d03-a42f-90d1bcc12362",
+      "target_ref": "malware--3cc2d632-7436-4d26-8d9f-18cabf3f5c30"
     },
     {
       "type": "relationship",
@@ -1991,7 +1991,7 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "based-on",
-      "source_ref": "indicator--97bcdff6-c15a-4910-85c7-87c5358ca256",
+      "source_ref": "indicator--72776ac5-3659-4d03-a42f-90d1bcc12362",
       "target_ref": "file--82feb9b6-a3ce-550b-9268-256117c0c53e"
     },
     {
@@ -2001,7 +2001,7 @@
       "created": "2026-08-03T17:08:53.242982Z",
       "modified": "2026-08-03T17:08:53.242982Z",
       "relationship_type": "based-on",
-      "source_ref": "indicator--97bcdff6-c15a-4910-85c7-87c5358ca256",
+      "source_ref": "indicator--72776ac5-3659-4d03-a42f-90d1bcc12362",
       "target_ref": "file--01481524-1b04-5c7e-8f4c-cc94e239f1e1"
     },
     {
@@ -2011,8 +2011,8 @@
       "created": "2026-08-04T10:09:20.802223Z",
       "modified": "2026-08-04T10:09:20.802223Z",
       "relationship_type": "indicates",
-      "source_ref": "indicator--f6960413-fa5b-4248-b7a4-9de75a1b97b1",
-      "target_ref": "campaign--81bc90f3-2b6b-431d-98a2-cb70f30724eb"
+      "source_ref": "indicator--38756227-b0c6-451f-b6cc-a0be62dcf4bd",
+      "target_ref": "campaign--04090d0b-329d-4e87-b657-2539f895c2c6"
     },
     {
       "type": "relationship",
@@ -2021,7 +2021,7 @@
       "created": "2026-08-04T10:09:20.802223Z",
       "modified": "2026-08-04T10:09:20.802223Z",
       "relationship_type": "based-on",
-      "source_ref": "indicator--f6960413-fa5b-4248-b7a4-9de75a1b97b1",
+      "source_ref": "indicator--38756227-b0c6-451f-b6cc-a0be62dcf4bd",
       "target_ref": "file--98a9e61f-1557-5ac2-bb59-97978c9af340"
     },
     {
@@ -2031,7 +2031,7 @@
       "created": "2026-08-04T10:09:20.802223Z",
       "modified": "2026-08-04T10:09:20.802223Z",
       "relationship_type": "based-on",
-      "source_ref": "indicator--f6960413-fa5b-4248-b7a4-9de75a1b97b1",
+      "source_ref": "indicator--38756227-b0c6-451f-b6cc-a0be62dcf4bd",
       "target_ref": "file--b2a6336d-6f44-51a9-8435-76456bd64bf0"
     },
     {
@@ -2041,7 +2041,7 @@
       "created": "2026-08-04T10:09:20.802223Z",
       "modified": "2026-08-04T10:09:20.802223Z",
       "relationship_type": "based-on",
-      "source_ref": "indicator--f6960413-fa5b-4248-b7a4-9de75a1b97b1",
+      "source_ref": "indicator--38756227-b0c6-451f-b6cc-a0be62dcf4bd",
       "target_ref": "file--af3cb0a5-b2e8-5020-8ffe-c9b2be78846d"
     },
     {
@@ -2051,8 +2051,8 @@
       "created": "2026-08-04T10:09:20.802223Z",
       "modified": "2026-08-04T10:09:20.802223Z",
       "relationship_type": "indicates",
-      "source_ref": "indicator--a6ef4177-da93-4fe1-a236-f4e267684257",
-      "target_ref": "malware--519c9cec-b93b-41c6-ae67-883f01b384bd"
+      "source_ref": "indicator--615f5eef-fb4b-4338-a888-8dd51510d4af",
+      "target_ref": "malware--e02e6686-2e63-409e-85f7-f81da3cbec9e"
     },
     {
       "type": "relationship",
@@ -2061,8 +2061,8 @@
       "created": "2026-08-04T10:09:20.802223Z",
       "modified": "2026-08-04T10:09:20.802223Z",
       "relationship_type": "based-on",
-      "source_ref": "indicator--a6ef4177-da93-4fe1-a236-f4e267684257",
-      "target_ref": "process--9cc68c3a-f823-4faf-b03a-644ab8fa9ff1"
+      "source_ref": "indicator--615f5eef-fb4b-4338-a888-8dd51510d4af",
+      "target_ref": "process--8d2eb09b-71f8-4cb8-a240-6099c3f88798"
     }
   ]
 }

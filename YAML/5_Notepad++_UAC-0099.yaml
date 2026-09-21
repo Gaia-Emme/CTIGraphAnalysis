@@ -6,6 +6,7 @@ objects:
       spec_version: '2.1'
       created: '2026-08-02T09:23:00.174927Z'
       modified: '2026-08-02T09:23:00.174927Z'
+      id: identity--24673cb3-c9fb-45cf-95f8-6f7419f1812b
       name: Cyber Security News
       roles:
         - news-media
@@ -17,6 +18,7 @@ objects:
       contact_information: 'https://cybersecuritynews.com'
     - ref_id: id_2
       spec_version: '2.1'
+      id: identity--4e29f9f4-5e46-4b9f-b450-5e9f91867f1f
       created: '2026-08-03T17:08:53.241124Z'
       modified: '2026-08-03T17:08:53.241124Z'
       name: CERT-UA
@@ -31,6 +33,9 @@ objects:
         - defence
       contact_information: 'https://cert.gov.ua/'
     - ref_id: id_3
+      id: identity--e96e82b2-cdde-5d8e-96c0-d25ae79ecd6a
+      created: "2026-08-04T16:43:52.076Z"
+      modified: "2026-08-04T16:43:52.076Z"
       identity_class: "individual"
       name: "Gaia Emme" 
   campaign:
