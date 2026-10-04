@@ -31,23 +31,44 @@ flowchart TB
     classDef artefatto fill:#5197c6,stroke:#333,color:#000
 ```
 ## Struttura del repository
-```
-  ├── README.md  
-  ├── requirements.txt  
-  ├── yaml_to_STIX.py  
-  ├── STIX_to_Cypher.py  
-  ├── Cypher_to_STIX.py  
-  ├── yaml/
-  │   └── 1_nomeArticolo.yaml, 2_nomeArticolo.yaml, ...
-  ├── stix/
+```text
+  ├── README.md 
+  ├── requirements.txt 
+  ├── source/ 
+  │   ├── yaml_to_STIX.py  
+  │   ├── STIX_to_Cypher.py  
+  │   └── Cypher_to_STIX.py 
+  ├── Yaml/
+  │   └── ...
+  ├── STIX/
   │   ├── schemas/
   │   │   └── (schemi delle extension STIX personalizzate)
-  │   └── 1_nomeArticolo.json, 1_nomeArticolo_fromQuery.json, ...
-  ├── cypher/
-  │   └── 1_nomeArticolo.cypher, ...
-  └── graphs/
-      └── 1_nomeArticolo.svg, ...
+  │   └── ...
+  ├── Cypher/
+  │   └── ...
+  ├── Graphs/
+  │   └── ...
+  └── analysis/ 
+      └── ...  
 ```
 
 ## Stato del progetto
-Iniziato a luglio 2026 - in corso
+Iniziato a luglio 2026 - in corso  
+Attualmente sono predominanti le fasi di creazione STIX e popolamento del graphDB
+
+## Licenza
+Questo repository contiene diverse categorie di materiale, per questo utilizza licenze separate, con distribuzione **Source Available / Non-Commercial**:  
+| Directories | License |
+|---|---|
+| source/ | PolyForm NonCommercial 1.0.0 |  
+| Yaml/, STIX/, Cypher/, Graphs/, analysis/ | CC BY-NC-SA 4.0 |
+
+Vedere la directory LICENSES/ per il testo completo delle licenze
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+[![PolyForm-Noncommercial-1.0.0][polyform-nc-shield]][polyform-nc]
+
+[polyform-nc]: https://polyformproject.org/licenses/noncommercial/1.0.0
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/LicenseContents-CC%20BY--NC--SA%204.0-lightgrey.svg
+[polyform-nc-shield]: https://img.shields.io/badge/LicenseCode-PolyForm%20NC%201.0-lightgrey.svg
